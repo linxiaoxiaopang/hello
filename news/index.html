@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>new</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/mycss.css">
+	<script>
+		window.onload=function(){
+			let div1=document.getElementById('div1')
+			let aA=div1.getElementsByTagName('a')
+			// alert(aA.length)
+			for(let i=0;i<aA.length;i++){
+				aA[i].onclick=function(){
+					for(let i=0;i<aA.length;i++){
+					aA[i].classList.remove('active')
+						
+					}
+					aA[i].classList.add('active')
+					
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	
+	<div  class="navbar ">
+		<div class="container">
+			<div class="navbar navbar-header">
+				<div class="navbar-brand">
+					
+				</div>
+			</div>
+			<label class="navbar-toggle" for="toggle-checkbox">MENU</label><input id="toggle-checkbox" class="hidden" type="checkbox">
+			<div class="hidden-xs">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="#">国内</a></li>
+				<li><a href="#">国际</a></li>
+				<li><a href="#">解读</a></li>
+				<li><a href="#">社会</a></li>
+
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="login.html">登录</a></li>
+				<li><a href="signup.html">注册</a></li>
+
+			</ul>
+		</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">				
+					<div id="div1" class="list-group side-bar hidden-xs">
+						<a  class="list-group-item active" href="#">全部</a>
+						<a  class="list-group-item" href="#">电影</a>
+						<a  class="list-group-item" href="#">电视剧</a>
+						<a  class="list-group-item" href="#">明星</a>
+						<a  class="list-group-item" href="#">八卦</a>
+						<a  class="list-group-item" href="#">音乐</a>
+						<a class="list-group-item"  href="#">演员</a>
+						<a  class="list-group-item" href="#">歌手</a>
+
+					</div>			
+			</div>
+			<div class="col-sm-7">
+				<div class="news-list">
+					<div class="news-list-item clearfix">
+						<div class="col-xs-4">
+							<img src="./image/1.jpg" alt="">
+						</div>
+						<div class="col-xs-8">
+
+							<a href="news.html" class="title">
+								两年前，他为了教育事业和高圆圆分手，今成这般，高圆圆：我有一句MMP如鲠在喉，不知当讲不当讲
+							</a >
+							<div class="info">
+								<span><span class="avatar"><img src="./image/logo.jpg" alt=""></span> 林小胖</span>.
+								<span>25K评论</span>.
+								<span>7分钟前发表</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-4">
+							<img src="./image/1.jpg" alt="">
+						</div>
+						<div class="col-xs-8">
+							<a src="#" class="title">
+								两年前，他为了教育事业和高圆圆分手，今成这般，高圆圆：我有一句MMP如鲠在喉，不知当讲不当讲
+							</a >
+							<div class="info">
+								<span><span class="avatar"><img src="./image/logo.jpg" alt=""></span> 林小胖</span>.
+								<span>25K评论</span>.
+								<span>7分钟前发表</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-4">
+							<img src="./image/1.jpg" alt="">
+						</div>
+						<div class="col-xs-8">
+							<a src="#" class="title">
+								两年前，他为了教育事业和高圆圆分手，今成这般，高圆圆：我有一句MMP如鲠在喉，不知当讲不当讲
+							</a >
+							<div class="info">
+								<span><span class="avatar"><img src="./image/logo.jpg" alt=""></span> 林小胖</span>.
+								<span>25K评论</span>.
+								<span>7分钟前发表</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-4">
+							<img src="./image/1.jpg" alt="">
+						</div>
+						<div class="col-xs-8">
+							<a src="#" class="title">
+								两年前，他为了教育事业和高圆圆分手，今成这般，高圆圆：我有一句MMP如鲠在喉，不知当讲不当讲
+							</a >
+							<div class="info">
+								<span><span class="avatar"><img src="./image/logo.jpg" alt=""></span> 林小胖</span>.
+								<span>25K评论</span>.
+								<span>7分钟前发表</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-xs-4">
+							<img src="./image/1.jpg" alt="">
+						</div>
+						<div class="col-xs-8">
+							<a src="#" class="title">
+								两年前，他为了教育事业和高圆圆分手，今成这般，高圆圆：我有一句MMP如鲠在喉，不知当讲不当讲
+							</a >
+							<div class="info">
+								<span><span class="avatar"><img src="./image/logo.jpg" alt=""></span> 林小胖</span>.
+								<span>25K评论</span>.
+								<span>7分钟前发表</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="seach-bar">
+					<input type="search" class="form-control" placeholder="搜索资讯">
+				</div>
+				<div class="side-bar-card flag clearfix">
+					<div class="col-sm-5">
+						<img src="./image/jubao.jpg" alt="">
+					</div>
+					<div class="col-sm-7">
+						<div class="text-lg">
+							网上有害信息举报专区
+						</div>
+						<div>举报电话12377</div>
+					</div>
+					
+				</div>
+				<div class="side-bar-card">
+							<div class="card-titel">
+								24小时热闻
+							</div>
+							<div class="card-body">
+								<div class="list">	
+									<div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div>
+									<div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div><div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div>
+									<div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div>
+									<div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div>
+									<div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div>
+									<div class="item">
+										<div class="title">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										</div>
+										<div class="desc">
+											<span>59K播放</span>.
+											<span>167评论</span>
+										</div>
+									</div>
+
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>	
+	</div>
+	<div class="news-footer">
+		岩哥使用bootStrap制作的第一个网站
+	</div>
+</body>
+</html>

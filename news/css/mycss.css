@@ -1,0 +1,139 @@
+.navbar{
+	background:#EFEEEE;
+	font-size: 20px;
+	font-family: 隶书;
+}
+
+.navbar-brand{
+background: url('../image/logo.jpg') center center no-repeat;
+background-size: 90%;
+}
+
+.side-bar .list-group-item{
+	border:0;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+.side-bar .list-group-item.active{
+	background: #e4a0a1;
+}
+.news-list-item {
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+.news-list-item img{
+	max-width: 100%;
+	height: 150px;
+}
+.news-list-item .title{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5em;
+	color:black;
+}
+.news-list-item a:hover {
+	text-decoration: none;
+	color:#337ab7;;
+	cursor: pointer;
+}
+.news-list-item .info{
+	color: #888;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.avatar img{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.side-bar-card{
+	margin-top: 20px;
+	background: rgba(0,0,0,0.05);
+	padding: 15px 0;
+}
+.side-bar-card.flag{
+	padding: 20px ;
+}
+.side-bar-card img{
+	max-width: 100%;
+}
+.side-bar-card .text-lg{
+	font-size: 150%;
+	line-height: 2;
+}
+
+.side-bar-card .list .item:hover{
+		background: rgba(0,0,0,0.1);
+}
+.card-titel{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	padding: 0 15px;
+
+}
+.side-bar-card .list .item {
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.side-bar-card .list .item .desc,.side-bar-card .list .item .title{
+	padding: 0 15px;
+}
+.side-bar-card .list .item .title{
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: bold;
+}
+.side-bar-card .list .item .desc{
+	color:#999;
+	margin-top: 10px;
+}
+
+.news{
+	padding: 0px 20px;
+}
+.news .title h1{
+	line-height: 1.5;
+}
+.news .info{
+	color:#999;
+}
+.news .info div{
+	margin-right: 5px;
+	opacity: 0.8;
+}
+.news .new-content{
+	margin-top: 20px;
+	font-weight: bold;
+}
+.news .new-content img{
+	margin:20px 0;
+	max-width: 100%;
+}
+.news .side-bar-card .card-title{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+.news-footer{
+	margin:20px;
+	padding: 25px;
+	text-align: center;
+	color: #777;
+	background: #EFEEEE;
+}
+.container-small{
+	max-width: 500px;
+}
+
+#toggle-checkbox:checked~div{
+	display: block  !important;
+}
+.navbar-toggle{
+	position: absolute;
+	right: 5px;
+	top:7px;
+	color: #666;
+}
