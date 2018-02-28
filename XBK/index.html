@@ -13,7 +13,16 @@
 	<script>
 		$(function(){
 			$('.listMain li a').on('click',function(){
-				$(this).next('ul').slideToggle()
+
+				if($(this).next('ul').css("display")=='none'){
+
+					$(this).next('ul').slideDown()
+					$(this).children('i').addClass('on')
+				}else{
+					$(this).next('ul').slideUp()
+					$(this).children('i').removeClass('on')
+				}
+				
 			})
 			$('.home-top img').on('click',function(){
 				$('.side-left-bar').addClass('on')
@@ -106,6 +115,7 @@
 							<li><a href="#">隐私权政策</a></li>
 						</ul>
 				</li>
+				<div style="width: 100%;height: 200px;background:#292929;"></div>
 			</ul>
 		</div>
 	</div>
