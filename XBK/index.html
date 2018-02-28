@@ -17,10 +17,10 @@
 				if($(this).next('ul').css("display")=='none'){
 
 					$(this).next('ul').slideDown()
-					$(this).children('i').addClass('on')
+					$(this).children('.bgcolor').addClass('on').removeClass('newon')
 				}else{
 					$(this).next('ul').slideUp()
-					$(this).children('i').removeClass('on')
+					$(this).children('.bgcolor').removeClass('on').addClass('newon')
 				}
 				
 			})
@@ -70,7 +70,7 @@
 		<div class="listMain">
 			<ul>
 				<li><a href="#">首页</a></li>
-				<li><a href="#">新品推荐<i></i></a>
+				<li><a href="#">新品推荐<i class="bgcolor newon"></i></a>
 					<ul>
 						<li><a href="#">新年送出新心意</a></li>
 						<li><a href="#">星巴克焕新食</a></li>
@@ -80,14 +80,14 @@
 				<li><a href="#">星享俱乐部</a></li>
 				<li><a href="#">星巴克移动应用</a></li>
 				<li><a href="#">星礼卡</a></li>
-				<li><a href="#">咖啡文化<i></i></a>
+				<li><a href="#">咖啡文化<i class="bgcolor newon"></i></a>
 					<ul>
 						<li><a href="#">咖啡文化</a></li>
 						<li><a href="#">辛巴克甄选<sup>TM</sup>咖啡 </a></li>
 						<li><a href="#">当季新品</a></li>
 					</ul>
 				</li>
-				<li><a href="#">饮品美食<i></i></a>
+				<li><a href="#">饮品美食<i class="bgcolor newon"></i></a>
 					<ul>
 						<li><a href="#">饮品</a></li>
 						<li><a href="#">我们的使命和价值观 </a></li>
@@ -98,7 +98,7 @@
 						<li><a href="#">历史回顾</a></li>
 					</ul>
 				</li>
-				<li><a href="#">关于我们<i></i></a>
+				<li><a href="#">关于我们<i class="bgcolor newon"></i></a>
 					<ul>
 						<li><a href="#">企业新闻</a></li>
 						<li><a href="#">星巴克美食 </a></li>
@@ -107,7 +107,7 @@
 						<li><a href="#">茶瓦纳<sub>TM</sub></a></li>
 					</ul>	
 				</li>
-				<li><a href="#">活动中心<i></i></a>
+				<li><a href="#">活动中心<i class="bgcolor newon"></i></a>
 						<ul>
 							<li><a href="#">常见问题</a></li>
 							<li><a href="#">联系我们</a></li>

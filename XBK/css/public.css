@@ -45,19 +45,22 @@ transition: 0.3s;
 	text-decoration: none;
 	font-family:隶书;
 }
-/*.side-left-bar a:hover i{
+.side-left-bar a:hover .bgcolor.newon{
 	border-top-color: #b89f7a;
-}*/
-i{
+}
+.side-left-bar a:hover .bgcolor.on{
+	border-bottom-color: #b89f7a;
+}
+.bgcolor{
 	border:7px solid transparent;
 	border-top-color:white;
 	float:right;
 	margin-top: 10px;
 }
-i.on{
+.bgcolor.on{
 	border-top-color:transparent;
 	border-bottom-color:white;
-	margin-top: 5px;  
+	margin-top: 5px; 
 }
 .side-left-bar .listMain>ul>li>a{
 	color:white;
