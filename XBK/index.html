@@ -10,10 +10,110 @@
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/swiper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+		$(function(){
+			$('.listMain li a').on('click',function(){
+				$(this).next('ul').slideToggle()
+			})
+			$('.home-top img').on('click',function(){
+				$('.side-left-bar').addClass('on')
+				$('.bg').addClass('on')
+				$('.bg').fadeIn(1300)
+			})
+			$('.bg').on('click',function(){
+				$('.side-left-bar').removeClass('on')
+				// $('.bg').removeClass('on')
+				$(".bg").fadeOut(300);
+			})
+			$(window).scroll(function(){
+				$('.side-left-bar').removeClass('on')
+				// $('.bg').removeClass('on')
+				$(".bg").fadeOut(300);
+			})
+			let sTop=$(window).scrollTop()
+			$(window).on('scroll',function(){
+				let sNewTop=$(window).scrollTop()
+				if(sNewTop>100){
+					$('.home-top').addClass('on')
+					if(sNewTop>sTop){
+						$('.home-top').css({top:'-60px'})
+					}else{
+						$('.home-top').css({top:'0'})
+					}
+					sTop=sNewTop
+				}else{
+					$('.home-top').removeClass('on')
+				}
+			})
+		})
+	</script>
 
 </head>
 <body>
-	<div class="container-fluid home-top " >
+
+	<div class="side-left-bar">
+		<div class="listTop">
+			<ul>
+				<li><a href="#">ENGLISH</a></li>
+				<li><a href="#">星巴克店铺</a></li>
+			</ul>
+		</div>
+		<div class="listMain">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">新品推荐<i></i></a>
+					<ul>
+						<li><a href="#">新年送出新心意</a></li>
+						<li><a href="#">星巴克焕新食</a></li>
+						<li><a href="#">当季新品</a></li>
+					</ul>
+				</li>
+				<li><a href="#">星享俱乐部</a></li>
+				<li><a href="#">星巴克移动应用</a></li>
+				<li><a href="#">星礼卡</a></li>
+				<li><a href="#">咖啡文化<i></i></a>
+					<ul>
+						<li><a href="#">咖啡文化</a></li>
+						<li><a href="#">辛巴克甄选<sup>TM</sup>咖啡 </a></li>
+						<li><a href="#">当季新品</a></li>
+					</ul>
+				</li>
+				<li><a href="#">饮品美食<i></i></a>
+					<ul>
+						<li><a href="#">饮品</a></li>
+						<li><a href="#">我们的使命和价值观 </a></li>
+						<li><a href="#">星巴克责任</a></li>
+						<li><a href="#">工作在星巴克中国</a></li>
+						<li><a href="#">加入星巴克></a></li>
+						<li><a href="#">星巴克在中国></a></li>
+						<li><a href="#">历史回顾</a></li>
+					</ul>
+				</li>
+				<li><a href="#">关于我们<i></i></a>
+					<ul>
+						<li><a href="#">企业新闻</a></li>
+						<li><a href="#">星巴克美食 </a></li>
+						<li><a href="#">星巴克咖啡</a></li>
+						<li><a href="#">星巴克VIA兔煮咖啡</a></li>
+						<li><a href="#">茶瓦纳<sub>TM</sub></a></li>
+					</ul>	
+				</li>
+				<li><a href="#">活动中心<i></i></a>
+						<ul>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">使用条款</a></li>
+							<li><a href="#">隐私权政策</a></li>
+						</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+	<div class="container-fluid home-top" >
 		<div class="row ">	
 			<div class="col-sm-2 col-xs-3  home-top-left">
 				<img src="images/menu_icon.png" alt="">
@@ -226,6 +326,7 @@
 			</div>
 		</div>
 	</footer>
+	<div class="bg"></div>
 	<script>
 			 var mySwiper = new Swiper ('.HomeCarousel .swiper-container', {
 	    slidesPerView : 'auto',
