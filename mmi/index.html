@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<style type="text/css">
+	*{margin:0px;padding: 0px;}
+ body{background: #ccc;}
+.header_all{width: 100%;height: 50px;background-image: url(bj.png);background-repeat: repeat-x;}
+.header_nav{width: 90%;height: 50px;margin:0 auto;}
+.header_h3{float: left;color: white;line-height: 50px;margin-left:100px;font-weight: bold;font-size: 30px;}
+.header_li{float: left;list-style-type: none;width: 100px;line-height: 50px;font-size: 20px;letter-spacing: 5px;margin-left: 5px;text-align: center;}
+.header_li>a{text-decoration:none;color: white;}
+
+.aside1_all{position: fixed;left: 50px;top:60px;}
+
+.section1_all{margin:0 auto;margin-top: 15px; width: 1000px;overflow: hidden;background: white;font-family: 隶书;font-size: 6px;border-radius: 10px;}
+.section1_all img{width: 170px;height: 115px;}
+.section1_all nav{width:4000px;position: relative;animation:mydh 12s linear infinite;}
+.section1_all ul{width: 1000px;float: left;}
+.section1_all li{float: left;list-style-type: none;text-align: center;margin:10px;}
+.section1_all p:hover,.section1_all p:active{cursor: pointer;background: orange;opacity: 0.6;}
+#main{width: 1000px;margin:0 auto;overflow: hidden;}
+/*@keyframes mydh{
+	0%{left: 0}
+	7%{left: 0}
+	25%{left:-1000px}
+	40%{left:-1000px}
+	58%{left: -2000px}
+	73%{left:-2000px}
+	91%{left:-3000px}
+	100%{left: -3000px}
+
+	
+}
+*/
+
+.section_add{width: 100%;height: 100px;margin-top: 5px;}
+.section_add img{height: 80px;border: 3px solid green;cursor: pointer;border-radius: 50px;margin-left: 20px;}
+.section_add img:hover{opacity: 0.5;transform: rotate(15deg) ;}
+
+.section2_all img{width: 170px;height: 115px;}
+.section2_all{height: 80px;height: 100%;overflow: hidden;}
+.section2_all li{list-style-type: none;float: left;margin-right: 10px;font-size: 20px;line-height: 100px;color:white;}
+.section2_all li:nth-child(1){color: orange;}
+
+.section3_all img{width: 170px;height: 115px;}
+.section3_all{width: 1000px;background: white;overflow: hidden;}
+.section3_all li{float: left;list-style-type: none;margin:10px;}
+
+footer{width: 100%;rgba(136,136,136,0.5)}
+.section4_all{width: 1000px;margin:0 auto;display: flex;background:rgba(227,227,227,0.6)}
+.section4_all h3{font-size: 15px;opacity: 0.5;margin-bottom: 10px;}
+.section4_all nav{border-right: 1px solid rgba(0,0,0,0.5);}
+.section4_all nav:nth-child(2),.section4_all nav:nth-child(3),.section4_all nav:nth-child(4){margin-left: 10px;}
+.section4_all nav:nth-child(4){border-right: none;}
+.section4_all a{text-decoration: none;margin:30px 10px 10px 0;font-size: 12px;color:black;padding: 5px;}
+.section5_all{width: 100%;height: 50px;line-height: 50px;font-size: 8px;color: white;background: rgb(77,77,77)}
+.section5_all nav{text-align: center;}
+.section5_all a{text-decoration: none;font: 10px;color: white;}
+	audio{width: 100%;}
+	#div1 ul{margin-top: 100px;list-style: none;}
+	#div1 li{float: left;margin:5px;transform-origin: left top;}
+	#div1 li{
+	float: left;
+	transform-origin: left top;#div1 
+	transform: rotate(10deg);
+	transition: all 2s ease;
+}
+
+	#div1 img{width: 100px; border: 3px groove green;}
+	#div1{width: 1000px;margin:0 auto;background-image:url(hj.png);height: 700px;background-size: cover;padding: 2px;margin-top: 30px;cursor: crosshair;}
+	/*li:nth-child(1n){transform: rotate(20deg);}*/
+	#div1 li:nth-child(2n){transform: rotate(15deg);}
+	#div1 li:nth-child(3n){transform: rotate(-30deg);}
+	#div1 li:nth-child(5n){transform: rotate(30deg);}
+	#div1 li:nth-child(1){transform: rotate(-15deg);}
+	#div1 li:hover{transform: scale(2,2) rotate(0) ;transition: all 2s ease 0s;z-index: 200 ;position: relative;}
+	#div2{position: absolute;right: 0px;top: 110px;animation: mydh1 4s linear 0s infinite alternate;}
+	#div3{position: absolute;right: 0px;top:510px;animation: mydh1 4s linear 0s infinite alternate;}
+	#div4{position: absolute;right: 0px;top:910px;animation: mydh1 4s linear 0s infinite alternate;}
+	#div5{position: absolute;right: 0px;top: 1310px;animation: mydh1 4s linear 0s infinite alternate;}
+	#div6{position: absolute;right: 0px;top:1710px;animation: mydh1 4s linear 0s infinite alternate;}
+	#div7{position: absolute;right: 0px;top:2110px;animation: mydh1 4s linear 0s infinite alternate;}
+	#div8{position: absolute;right: 0px;top:2510px;animation: mydh1 4s linear 0s infinite alternate;}
+
+	.class1 img{width: 150px;height: 150px;}
+	@keyframes mydh1{
+			0%{transform: rotateX(45deg) ;}
+			25%{transform: rotateX(180deg);}
+			50%{transform: rotateX(360deg);}
+			75%{transform: rotateY(180deg);}
+			100%{transform: rotateY(360deg);}
+		}
+	</style>
+</head>
+<body>
+	<header class="header_all">
+	<nav class="header_nav">
+		<h3 class="header_h3">喵喵大魔王</h3>
+		<ul >
+			<li class="header_li"><a href="">首页</a></li>
+			<li class="header_li"><a href="">精选</a></li>
+			<li class="header_li"><a href="">图片</a></li>
+			<li class="header_li"><a href="">视频</a></li>
+			<li class="header_li"><a href="">音乐</a></li>
+			<li class="header_li"><a href="">八卦</a></li>
+		</ul>
+	</nav></header>
+	<section id="main">
+	<section class="section1_all">	
+		<nav>
+			<ul>
+				<li><a href=""><img src="images/11.jpg" alt="" style="width: 170px;height:268px "></a>
+				<p>相思相望不相亲，天为谁春。</p>
+				</li>
+				<li><a href=""><img src="images/11 (1).jpg" alt=""></a>
+				<p>问君何事轻离别，一年能几团圞月。</p>
+				</li>
+				<li><a href=""><img src="images/11 (2).jpg" alt=""></a>
+				<p>自与东君作别，刬地无聊。</p>
+				</li>
+				<li><a href=""><img src="images/11 (3).jpg" alt=""></a>
+				<p>人生若只如初见，何事秋风悲画扇？</p>
+				</li>
+				<li><a href=""><img src="images/11 (4).jpg" alt=""></a>
+				<p>点滴芭蕉心欲碎，声声催忆当初</p>
+				</li>
+				<li><a href=""><img src="images/11 (5).jpg" alt=""></a>
+				<p>风也萧萧，雨也萧萧，瘦尽灯花又一宵。</p>
+				</li>
+				<li><a href=""><img src="images/11 (6).jpg" alt=""></a>
+				<p>月浅灯深，梦里云归何处寻？</p>
+				</li>
+				<li><a href=""><img src="images/11 (7).jpg" alt=""></a>
+				<p>休为西风瘦，痛饮频搔首。</p>
+				</li>
+				<li><a href=""><img src="images/11 (8).jpg" alt=""></a>
+				<p>莫恨流年似水，恨消残蝶粉。</p>
+				</li>
+			</ul>
+			<ul>
+				<li><a href=""><img src="images/22.jpg" alt="" style="width: 170px;height:268px "></a>
+				<p>静数秋天，又误心期到下弦。</p>
+				</li>
+				<li><a href=""><img src="images/22 (1).jpg" alt=""></a>
+				<p>谁见两眉愁聚倚阑干</p>
+				</li>
+				<li><a href=""><img src="images/22 (2).jpg" alt=""></a>
+				<p>倚香篝。春睡起，斜日照梳头。</p>
+				</li>
+				<li><a href=""><img src="images/22 (3).jpg" alt=""></a>
+				<p>欲写两眉愁，休休。远山残翠收。</p>
+				</li>
+				<li><a href=""><img src="images/22 (4).jpg" alt=""></a>
+				<p>谢却荼蘼，一片月明如水。</p>
+				</li>
+				<li><a href=""><img src="images/22 (5).jpg" alt=""></a>
+				<p>最愁人，灯欲落，雁还飞。</p>
+				</li>
+				<li><a href=""><img src="images/22 (6).jpg" alt=""></a>
+				<p>独夜背纱笼，影著纤腰画。</p>
+				</li>
+				<li><a href=""><img src="images/22 (7).jpg" alt=""></a>
+				<p>不见合欢花，空倚相思树。</p>
+				</li>
+				<li><a href=""><img src="images/22 (8).jpg" alt=""></a>
+				<p>愁怅彩云飞，碧落知何许？</p>
+				</li>
+			</ul>
+			<ul>
+				<li><a href=""><img src="images/33.jpg" alt=""  style="width: 170px;height:268px "></a>
+				<p>别样幽芬，更无浓艳催开处。</p>
+				</li>
+				<li><a href=""><img src="images/33 (1).jpg" alt=""></a>
+				<p>忒煞萧疏，怎耐秋如许？/p>
+				</li>
+				<li><a href=""><img src="images/33 (2).jpg" alt=""></a>
+				<p>小院新凉，晚来顿觉罗衫薄。</p>
+				</li>
+				<li><a href=""><img src="images/33 (3).jpg" alt=""></a>
+				<p>空房悄，乌啼欲晓，又下西楼了。</p>
+				</li>
+				<li><a href=""><img src="images/33 (4).jpg" alt=""></a>
+				<p>重来丁酒，折尽风前柳。</p>
+				</li>
+				<li><a href=""><img src="images/33 (5).jpg" alt=""></a>
+				<p>此夜红楼，天上人间一样愁。</p>
+				</li>
+				<li><a href=""><img src="images/33 (6).jpg" alt=""></a>
+				<p>香销被冷残灯灭，静数秋天。</p>
+				</li>
+				<li><a href=""><img src="images/33 (7).jpg" alt=""></a>
+				<p>几竿修竹三更雨，叶叶萧萧。</p>
+				</li>
+				<li><a href=""><img src="images/33 (8).jpg" alt=""></a>
+				<p>刚剩秋衾一半，拥透帘残月。</p>
+				</li>
+			</ul>
+			<ul>
+				<li><a href=""><img src="images/11.jpg" alt="" style="width: 170px;height:268px "></a>
+				<p>相思相望不相亲，天为谁春。</p>
+				</li>
+				<li><a href=""><img src="images/11 (1).jpg" alt=""></a>
+				<p>问君何事轻离别，一年能几团圞月。</p>
+				</li>
+				<li><a href=""><img src="images/11 (2).jpg" alt=""></a>
+				<p>自与东君作别，刬地无聊。</p>
+				</li>
+				<li><a href=""><img src="images/11 (3).jpg" alt=""></a>
+				<p>人生若只如初见，何事秋风悲画扇？</p>
+				</li>
+				<li><a href=""><img src="images/11 (4).jpg" alt=""></a>
+				<p>点滴芭蕉心欲碎，声声催忆当初</p>
+				</li>
+				<li><a href=""><img src="images/11 (5).jpg" alt=""></a>
+				<p>风也萧萧，雨也萧萧，瘦尽灯花又一宵。</p>
+				</li>
+				<li><a href=""><img src="images/11 (6).jpg" alt=""></a>
+				<p>月浅灯深，梦里云归何处寻？</p>
+				</li>
+				<li><a href=""><img src="images/11 (7).jpg" alt=""></a>
+				<p>不见合欢花，空倚相思树。</p>
+				</li>
+				<li><a href=""><img src="images/11 (8).jpg" alt=""></a>
+				<p>莫恨流年似水，恨消残蝶粉。</p>
+				</li>
+			</ul>
+			</nav>
+	</section>
+	<section class="section_add"><img id="img1"src="images/11.jpg" alt="" >
+	<img src="images/22.jpg" alt="" id="img2">
+	<img src="images/33.jpg" alt="" id="img3"></section>
+	<div id="div1">
+	<ul>
+		<li><img src="img/0.jpg" alt=""></li>
+		<li><img src="img/1.jpg" alt=""></li>
+		<li><img src="img/2.jpg" alt=""></li>
+		<li><img src="img/3.jpg" alt=""></li>
+		<li><img src="img/4.jpg" alt=""></li>
+		<li><img src="img/5.jpg" alt=""></li>
+		<li><img src="img/6.jpg" alt=""></li>
+		<li><img src="img/7.jpg" alt=""></li>
+		<li><img src="img/8.jpg" alt=""></li>
+		<li><img src="img/9.jpg" alt=""></li>
+		<li><img src="img/10.jpg" alt=""></li>
+		<li><img src="img/11.jpg" alt=""></li>
+		<li><img src="img/12.jpg" alt=""></li>
+		<li><img src="img/13.jpg" alt=""></li>
+		<li><img src="img/14.jpg" alt=""></li>
+		<li><img src="img/15.jpg" alt=""></li>
+	</ul>
+</div>
+<div id="div2" class="class1"><img src="img/16.jpg" alt=""></div>
+<div id="div3" class="class1"><img src="img/15.jpg" alt=""></div>
+<div id="div4" class="class1"><img src="img/14.jpg" alt=""></div>
+<div id="div5" class="class1"><img src="img/13.jpg" alt=""></div>
+<div id="div6" class="class1"><img src="img/12.jpg" alt=""></div>
+<div id="div7" class="class1"><img src="img/11.jpg" alt=""></div>
+<div id="div8" class="class1"><img src="img/10.jpg" alt=""></div>
+	<section class="section2_all" >
+		<nav>
+			<ul>
+				<li>全部</li>
+				<li>热门</li>
+				<li>推荐</li>
+				<li>图片</li>
+			</ul>
+		</nav>
+	</section>
+	<div style="clear: both;"></div>
+	<section class="section3_all" style="background: white;">
+		<ul>
+			<li>
+				<img src="images/44 (1).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (2).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (3).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (4).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (5).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (6).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (7).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (8).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (9).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (10).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (11).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (12).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (13).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (14).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (15).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (16).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (17).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (18).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (19).jpg" alt="">
+				<p></p>
+			</li>
+			<li>
+				<img src="images/44 (20).jpg" alt="">
+				<p></p>
+			</li>
+			
+			
+			
+		</ul>
+	</section>
+	</section>
+	<footer>
+		<section class="section4_all">
+			<nav>
+				<h3>愿安好</h3>
+				<a href="">善良</a>
+				<a href="">坚强</a>
+				<a href="">乐观大方</a>
+				<a href="">幸福</a>
+				<a href="">快乐</a>
+				<a href="">小仙女</a>
+			</nav>
+
+			<nav>
+				<h3>图书</h3>
+				<a href="">京华风云</a>
+				<a href="">平凡的世界</a>
+				<a href="">蛙</a>
+				<a href="">红楼梦</a>
+				<a href="">.....</a>
+				<a href="">.....</a>
+			</nav>
+
+			<nav>
+				<h3>大魔王爱好</h3>
+				<a href="">周柏豪</a>
+				<a href="">张一山</a>
+				<a href="">谢安琪</a>
+				<a href="">王者荣耀（已卸载）</a>
+				<a href="">消消乐（愚蠢的人类）</a>
+				<a href="">....</a>
+				<a href="">....</a>
+				<a href="">....</a>
+			</nav>
+
+			<nav>
+				<h3>作者简介</h3>
+				<a href="">英俊逼人</a>
+				<a href="">天才</a>
+				<a href="">和蔼可亲</a>
+				<a href="">文艺</a>
+				<a href="">才华横溢</a>
+				<a href="">智勇双全</a>
+				<a href="">守身如玉</a>
+				<a href="" style="color:red;font-weight: bold;">不要脸</a>
+			</nav>
+
+		</section>
+		<section class="section5_all">
+
+		<nav>
+	  
+		<a href="	">Investor Relations</a> | 
+		<a href="">关于我们</a>  |
+		<a href=""> 广告合作</a> |
+		<a href="">投诉建议</a>  |
+		<a href="">挂马监测</a>  |
+		<a href="">手机版</a>  |
+		<a href="">Copyright ©360.cn. All Rights Reserved. 京ICP证080047号京公网安备110000000006号</a></nav>
+		</section>
+		<section>
+		<audio src="images/海角七号.mp3" controls="" loop=""  autoplay="" ></audio>
+		
+		</section>
+	</footer>
+	<script>
+		$(function(){
+			var num=0
+			var num1=0
+			 var j=1
+			$('.section1_all nav').animate({left:' 0px'},100).delay(2000)
+			$('.section1_all nav').animate({left:'-1000px'},100).delay(2000)
+			$('.section1_all nav').animate({left:'-2000px'},100).delay(2000)
+			// $('.section1_all nav').animate({left:'-3000px'},0).delay(2000)
+			
+			// $('.section1_all nav').animate({left:'0px'},1500/6)
+			// if($('section1_all').children('nav').css('left'))
+			// var $num=$('.section1_all').children('nav').css('left')
+			// if($num=='-3000px'){
+			// 	$('.section1_all').children('nav').finish()
+			// }
+		
+
+			$('.section1_all').mouseenter(function(){
+				if(num==0){		
+				$('.section1_all nav').stop(true,true)	
+				num=1	
+				if(num1==1){
+				clearInterval(timeIdd)
+				}else{
+					clearInterval(timeId)
+					num1=1
+					num=1
+				}
+				}
+			})
+			
+			$('.section1_all').mouseleave(function(){
+			if(num==1){
+			var $num=$('.section1_all').children('nav').css('left')
+			if ($num=='0px') {$('.section1_all nav').animate({left:'-1000px'},100).delay(2000)
+			$('.section1_all nav').animate({left:'-2000px'},100).delay(2000)}
+			if ($num=='-2000px') {$('.section1_all nav').animate({left:' 0px'},100).delay(2000)
+			$('.section1_all nav').animate({left:'-1000px'},100).delay(2000)
+			$('.section1_all nav').animate({left:'-2000px'},100).delay(2000)}
+			if($num=='-1000px'){$('.section1_all nav').animate({left:'-2000px'},100).delay(2000)}
+			timeIdd=setInterval(function (){
+			$('.section1_all nav').animate({left:'0px'},0).delay(2000)
+			$('.section1_all nav').animate({left:'-1000px'},100).delay(2000)
+		
+			$('.section1_all nav').animate({left:'-2000px'},100).delay(2000)
+		
+			// $('.section1_all nav').animate({left:'-3000px'},0).delay(2000)
+		
+			},6200)
+			num=0
+			
+			}
+
+			})
+			if (j==1) {
+				j=2
+			var timeId=setInterval(function (){
+			$('.section1_all nav').animate({left:'0px'},0).delay(2000)
+			$('.section1_all nav').animate({left:'-1000px'},100).delay(2000)
+		
+			$('.section1_all nav').animate({left:'-2000px'},100).delay(2000)
+		
+			// $('.section1_all nav').animate({left:'0px'},0).delay(2000)
+			
+		},6200)
+			}
+		})
+		$(function(){
+			$('#img1').on('click',function(){
+			$('.section1_all').children('nav').css('left','0px')
+
+			})
+			$('#img2').on('click',function(){
+			$('.section1_all').children('nav').css('left','-1000px')
+
+			})
+			$('#img3').on('click',function(){
+			$('.section1_all').children('nav').css('left','-2000px')
+
+			})
+			if($(window).width()<1200){
+				$('#div2').css({display:'none'})
+				$('#div2').siblings('div').css({display:'none'})
+				$('#div1').css({display:'block'})
+			}else{
+				$('#div2').css({display:'block'})
+				$('#div2').siblings('div').css({display:'block'})
+			}
+		})
+		
+
+	</script>
+</body>
+</html>
