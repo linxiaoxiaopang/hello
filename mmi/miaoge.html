@@ -7,6 +7,36 @@
 	<style type="text/css">
 	*{margin:0px;padding: 0px;}
  body{background: #ccc;}
+#zhouGeci{
+	margin-top: 30px;
+	padding: 20px 10px;
+	width: 100%;
+	text-align: center;
+
+} 
+#zhoubj div{
+	background-size: contain;
+	background-position: center;
+}
+#zhoubj{
+	width: 100%;
+	margin:1px auto;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	background: url('boomImg/22.jpg') center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#zhouBtn{
+	background: black;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	width: 20%;
+}
+
 .header_all{width: 100%;height: 50px;background-image: url(bj.png);background-repeat: repeat-x;}
 .header_nav{width: 90%;height: 50px;margin:0 auto;}
 .header_h3{float: left;color: white;line-height: 50px;margin-left:100px;font-weight: bold;font-size: 30px;}
@@ -259,6 +289,70 @@ footer{width: 100%;rgba(136,136,136,0.5)}
 <div id="div6" class="class1"><img src="img/12.jpg" alt=""></div>
 <div id="div7" class="class1"><img src="img/11.jpg" alt=""></div>
 <div id="div8" class="class1"><img src="img/10.jpg" alt=""></div>
+<section>
+	<div id="zhouGeci"></div>
+</section>
+<section id="zhoubj">
+	
+</section>
+<button id="zhouBtn">切换背景</button>
+<script>
+	$(function(){
+		let aTime=50
+		let num=21
+		$('#zhouBtn').on('click',function(){
+			
+			$('#zhoubj').css({'background-image':`url(boomImg/${num}.jpg)`})
+			num++
+			if(num>24){
+				num=21
+			}
+			
+		})
+
+		let aArr=['风沙扑面我未怕为你暴走，惊觉只有沙，没有绿洲。','离开假使只因性格，性格任你选。','谁须要日后被谁记住，谁贪你想起我的好处','喜欢你笑的时候，你脸上的图案，好像是要为我眼睛不停带来眼光灿烂。','何事落到这收场，枯死在你的手上，风花雪月似戏一场，唯遗容你瞻仰。','泥石路同踏过做漫长情侣，一百岁后也不算多。','一生宁愿没大事发生，隐世在远郊小镇，两袖也清风看浮云。','没有感受，灵魂被你偷走，缠咋你左右我乞讨等接收。']
+		function toggle(){
+		
+			let sRanNum=Math.random().toString().slice(2,8)
+
+			let sNum=Math.floor(Math.random()*8)
+			let aFontColor=(99-Math.floor(sRanNum.slice(0,2)))+''+(99-Math.floor(sRanNum.slice(2,4)))+''+(99-Math.floor(sRanNum.slice(4,6)))
+			
+			$('#zhouGeci').css({background:'#'+sRanNum,color:'#'+aFontColor})
+			$('#zhouGeci').html(`<h1>${aArr[sNum]}</h1>`)
+		}
+		setInterval(toggle,200)
+
+		setInterval(function(){
+		let sStarTop='-100px';
+		let sOpa=Math.random()+0.3
+		let sEndTop=$(window).height()
+		let sStarLeft=(Math.floor(Math.random()*$(window).width()+1))+'px'
+		
+		let sEndLeft=(Math.floor(Math.random()*$(window).width()+1))+'px'
+		let sHheight=Math.floor(Math.random()*51+10)
+		let sWidth=Math.floor(Math.random()*51+10)
+		let zhou=$('<div></div>')
+		$(zhou).css({
+			height:sHheight,
+			width:sWidth,
+			left:sStarLeft,
+			top:sStarTop,
+			position:'absolute',
+			backgroundImage:`url("boomImg/${Math.floor(Math.random()*12+1)}.jpg")`,
+			'background-size':'cover',
+			// background:'red',
+
+		})
+		$('#zhoubj').append(zhou)
+
+		$(zhou).animate({top:sEndTop,left:sEndLeft,opacity:sOpa,},10000,function(){
+			$(zhou).remove()
+		})
+
+	},aTime)
+	})
+</script>
 	<section class="section2_all" >
 		<nav>
 			<ul>
