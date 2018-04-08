@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">	
+	body{
+		background-image: url(bj.jpg);
+		color:transparent;
+	}
+	table{
+		margin:20px auto;
+		width: 80%;
+	}
+	tr{
+		width: 100%;
+	}
+	td{
+		border:1px solid green;
+		width: 25%;
+		height:100px;
+		line-height: 100px;
+		font-size: 30px;
+	}
+	.addTransition{
+		font-size: 50px;
+		color: red;
+		opacity: 0.8;
+		transform: rotate(360deg);
+		transition: all 0.5s linear;
+	}
+	.addTransition1{
+		font-size:50px;
+		opacity: 0.8;
+		color: orange;
+		font-weight: bold;
+		transform: rotate(-360deg);
+		transition: all 0.5s linear;
+	}
+</style>
+<body>
+ <table>
+ 	<tbody>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 			
+ 		</tr>
+ 		<tr>
+ 			<td></td>
+ 		</tr>
+ 	</tbody>
+ </table>
+ <script>
+ 	let arrWord=['Never put off what you can do today until tomorrow.',' Hang on to your dreams',' Action speak louder than words.','I can because i think i can.','Take control of your own desting','Youth means limitless possibilities','Live well, love lots, and laugh often ','I know that my future is not just a dream','Keep on going never give up.','Storms make trees take deeper roots','奋斗吧，进击的红烧肉。']
+ 	let arr1=document.getElementsByTagName('td')
+ 	
+ 	let arrClass=['addTransition','addTransition1']
+ 	for(let i=0;i<arr1.length;i++){
+ 		arr1[i].onclick=function(){
+ 			let k=Math.floor(Math.random()*11)
+ 			arr1[i].className=''
+ 			setTimeout(function(){
+ 				arr1[i].innerHTML=arrWord[k]
+ 			let classNUM=Math.floor(Math.random()*2)
+ 			arr1[i].className=arrClass[classNUM]
+ 			
+ 			},500)
+ 			
+ 		}
+ 		
+ 	}
+ 	// arr1[0].onclick=function(){
+ 	// 	alert("")
+ 	// }
+ </script>
+</body>
+</html>
