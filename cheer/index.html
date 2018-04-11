@@ -4,23 +4,58 @@
 	<title></title>
 </head>
 <style type="text/css">	
+
 	body{
-		background-image: url(bj.jpg);
+		/*background-image: url(bj.jpg);*/
 		color:transparent;
 	}
+	*{
+		margin:0;
+			padding: 0;
+			}
+		#div1{
+			width: 100%;
+			height: 100%;
+			border:1px solid black;
+			margin:0px auto;
+			position: relative;
+			overflow: hidden;
+			
+			/*transform: translate();
+			*/
+			
+		}
+		#div1>div{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			transform-style: preserve-3d;
+
+			top: 0;
+			left: 0;
+		}
+		#div1>div>div{
+			transform: perspective(800px);
+			/*transform: scale();*/
+			
+		}	
+
 	table{
 		margin:20px auto;
 		width: 80%;
+		z-index: 9999999;
+		position: relative;
+		
 	}
 	tr{
 		width: 100%;
 	}
 	td{
-		border:1px solid green;
 		width: 25%;
 		height:100px;
 		line-height: 100px;
 		font-size: 30px;
+
 	}
 	.addTransition{
 		font-size: 50px;
@@ -38,7 +73,67 @@
 		transition: all 0.5s linear;
 	}
 </style>
+<script>
+		window.onload=function(){
+			var now=0
+			var z=9999999
+			arr=['boomImg/1.jpg','boomImg/2.jpg','boomImg/3.jpg','boomImg/4.jpg']
+			function boom(){
+				var oDiv=document.getElementById('div1')
+				var oParentNode=document.createElement('div')
+				oParentNode.style.zIndex=z--
+				oDiv.appendChild(oParentNode)
+			var x=1;
+			var y=1;
+
+			for(var i=0;i<x;i++){
+				for(var j=0;j<y;j++){
+					var oDiv1=document.createElement('div')
+					oDiv1.style.position='absolute'
+					oDiv1.style.width=oDiv.clientWidth/x+'px'
+					oDiv1.style.height=oDiv.clientHeight/y+'px'
+					oDiv1.backgroundColor='black'
+					oDiv1.style.left=i*oDiv.clientWidth/x+'px'
+					oDiv1.style.top=j*oDiv.clientHeight/y+'px'
+					oDiv1.style.background='url('+arr[now]+')'
+					oDiv1.style.backgroundPositionX=i*-oDiv.clientWidth/x+'px'
+					oDiv1.style.backgroundPositionY=j*-oDiv.clientHeight/y+'px'
+					oDiv1.style.transition=(Math.random()*1+0.5)+'s'
+					oParentNode.appendChild(oDiv1)
+				}
+			}
+			var allDiv=oParentNode.children;
+			setTimeout(function(){
+				now++
+
+				if(now==4){
+					now=0
+				}
+				boom()
+				for(var i=0;i<allDiv.length;i++){
+				allDiv[i].style.transform='perspective(800px)  translate('+(Math.random()*200-100)+'px) translateY('+(Math.random()*200-100)+'px) rotateY('+(Math.random()*360-180)+'deg) translateZ('+(Math.random()*5+100)+'px) ' ;
+				allDiv[i].style.opacity='0'
+
+			}
+			},2000)
+			
+			setTimeout(function(){
+
+				oParentNode.remove()
+			
+			},3500)
+			}
+
+			boom()
+
+			
+		}
+	</script>
+
 <body>
+	<div id="div1">
+
+	<audio controls="controls" autoplay="autoplay" loop="loop" src="music.mp3" hidden="hidden"></audio>
  <table>
  	<tbody>
  		<tr>
@@ -101,6 +196,7 @@
  		</tr>
  	</tbody>
  </table>
+ </div>
  <script>
  	let arrWord=['Never put off what you can do today until tomorrow.',' Hang on to your dreams',' Action speak louder than words.','I can because i think i can.','Take control of your own desting','Youth means limitless possibilities','Live well, love lots, and laugh often ','I know that my future is not just a dream','Keep on going never give up.','Storms make trees take deeper roots','奋斗吧，进击的红烧肉。']
  	let arr1=document.getElementsByTagName('td')
@@ -120,9 +216,6 @@
  		}
  		
  	}
- 	// arr1[0].onclick=function(){
- 	// 	alert("")
- 	// }
  </script>
 </body>
 </html>
