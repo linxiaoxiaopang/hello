@@ -4,11 +4,10 @@
 	<title></title>
 </head>
 <style type="text/css">	
-
+	
 	body{
 		/*background-image: url(bj.jpg);*/
 		color:transparent;
-		height: 100%;
 		overflow: hidden;
 	}
 	*{
@@ -60,19 +59,37 @@
 
 	}
 	.addTransition{
-		font-size: 50px;
+		/*font-size: 50px;
 		color: red;
 		opacity: 0.8;
 		transform: rotate(360deg);
-		transition: all 0.5s linear;
+		transition: all 0.5s linear;*/
+		animation: mydh 5s linear;
 	}
 	.addTransition1{
-		font-size:50px;
+		/*font-size:50px;
 		opacity: 0.8;
 		color: orange;
 		font-weight: bold;
 		transform: rotate(-360deg);
-		transition: all 0.5s linear;
+		transition: all 0.5s linear;*/
+		animation: mydhtwo 5s linear;
+	}
+	@keyframes mydh{
+		0% {color:red;font-size:10px;transform: rotate(0deg) translateX(0px) translateY(0px);}
+		20% {color:orange;font-size:30px;transform: rotate(90deg) translateX(50px) translateY(50px);}
+		40% {color:green;font-size:50px;transform: rotate(180deg) translateX(200px) translateY(200px);}
+		60% {colo:purple;font-size:70px;transform: rotate(270deg) translateX(100px) translateY(100px);}
+		80%{color:yellow;font-size:90px;transform: rotate(360deg) translateX(0px) translateY(0px);}
+		100%{color:yellow;font-size:90px;transform: rotate(360deg) translateX(0px) translateY(0px);}
+	}
+	@keyframes mydhtwo{
+		0% {color:red;font-size:10px;transform: rotate(0deg) translateX(0px) translateY(0px);}
+		20% {color:orange;font-size:30px;transform: rotate(90deg) translateX(150px) translateY(50px);}
+		40% {color:green;font-size:50px;transform: rotate(180deg) translateX(200px) translateY(300px);}
+		60% {colo:purple;font-size:70px;transform: rotate(360deg) translateX(100px) translateY(200px);}
+		80%{color:yellow;font-size:90px;transform: rotate(540deg) translateX(0px) translateY(0px);}
+		100%{color:yellow;font-size:90px;transform: rotate(540deg) translateX(0px) translateY(0px);}
 	}
 </style>
 <script>
@@ -80,13 +97,14 @@
 			var now=0
 			var z=9999999
 			arr=['boomImg/1.jpg','boomImg/2.jpg','boomImg/3.jpg','boomImg/4.jpg']
+			var x=2;
+			var y=2;
 			function boom(){
 				var oDiv=document.getElementById('div1')
 				var oParentNode=document.createElement('div')
 				oParentNode.style.zIndex=z--
 				oDiv.appendChild(oParentNode)
-			var x=2;
-			var y=2;
+			
 
 			for(var i=0;i<x;i++){
 				for(var j=0;j<y;j++){
@@ -127,6 +145,41 @@
 			}
 
 			boom()
+
+			let arrWord=['Never put off what you can do today until tomorrow.',' Hang on to your dreams',' Action speak louder than words.','I can because i think i can.','Take control of your own desting','Youth means limitless possibilities','Live well, love lots, and laugh often ','I know that my future is not just a dream','Keep on going never give up.','Storms make trees take deeper roots','奋斗吧，进击的红烧肉。']
+ 	let arr1=document.getElementsByTagName('td')
+ 	
+ 	let arrClass=['addTransition','addTransition1']
+ 	for(let i=0;i<arr1.length;i++){
+ 		arr1[i].onclick=function(){
+ 			let k=Math.floor(Math.random()*11)
+ 			// arr1[i].className=''
+ 			setTimeout(function(){
+ 				arr1[i].innerHTML=arrWord[k]
+ 			let classNUM=Math.floor(Math.random()*2)
+
+ 			arr1[i].className=arrClass[classNUM]
+ 		
+ 			
+ 			},500)
+ 			if(i<=8){
+ 				if(x>=2){
+ 				x=x+2
+ 				y=y+2
+ 				console.log(x,y)
+ 				}
+ 				
+ 			}else{
+ 				if(x>=4){
+ 					x=x-2
+ 					y=y-2
+ 					console.log(x,y)
+ 				}
+ 			}
+ 			
+ 		}
+ 		
+ 	}
 
 			
 		}
@@ -200,24 +253,7 @@
  </table>
  </div>
  <script>
- 	let arrWord=['Never put off what you can do today until tomorrow.',' Hang on to your dreams',' Action speak louder than words.','I can because i think i can.','Take control of your own desting','Youth means limitless possibilities','Live well, love lots, and laugh often ','I know that my future is not just a dream','Keep on going never give up.','Storms make trees take deeper roots','奋斗吧，进击的红烧肉。']
- 	let arr1=document.getElementsByTagName('td')
  	
- 	let arrClass=['addTransition','addTransition1']
- 	for(let i=0;i<arr1.length;i++){
- 		arr1[i].onclick=function(){
- 			let k=Math.floor(Math.random()*11)
- 			arr1[i].className=''
- 			setTimeout(function(){
- 				arr1[i].innerHTML=arrWord[k]
- 			let classNUM=Math.floor(Math.random()*2)
- 			arr1[i].className=arrClass[classNUM]
- 			
- 			},500)
- 			
- 		}
- 		
- 	}
  </script>
 </body>
 </html>
