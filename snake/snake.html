@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>snake</title>
+</head>
+<style type="text/css">
+/*	.div{
+		width: 50px;height: 50px;background: red;position: absolute;text-align: center;line-height: 50px;
+	}*/
+	#div1{
+		width: 100px;height: 100px;background: red;position: absolute;z-index: 1;
+	}
+	#div2{
+		width: 200px;height: 150px;background: green;position: absolute;left:200px;top:200px;
+	}
+</style>
+<body>
+	<!-- <div class="div">1</div>
+	<div class="div">2</div>
+	<div class="div">3</div>
+	<div class="div">4</div>
+	<div class="div">5</div>
+	<script type="text/javascript">
+		let aDiv=document.getElementsByTagName('div')
+		for(let i=0;i<aDiv.length;i++){
+			console.log(aDiv.length)
+			aDiv[i].style.left=(aDiv.length-i)*55+'px'
+		}
+		document.onkeydown=function(ev){
+
+			for(let i=aDiv.length-1;i>0;i--){
+				aDiv[i].style.left=aDiv[i-1].offsetLeft+'px'
+				aDiv[i].style.top=aDiv[i-1].offsetTop+'px'
+			}
+			if(ev.keyCode==39){
+					aDiv[0].style.left=aDiv[0].offsetLeft+55+'px'
+				
+			}else if(ev.keyCode==40){
+				aDiv[0].style.top=aDiv[0].offsetTop+5587+'px'
+			}
+		}
+	</script>	 -->
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<script type="text/javascript">
+		let div1=document.getElementById('div1')
+		let div2=document.getElementById('div2')
+		let dirx=0;
+		let diry=0
+		let sLeft=0;
+		let sTop=0
+		div1.onmousedown=function(ev){
+			dirx=ev.pageX-div1.offsetLeft
+			diry=ev.pageY-div1.offsetTop
+			
+			document.onmousemove=function(ev){
+			sLeft=ev.pageX-dirx
+			sTop=ev.pageY-diry	
+			div1.style.left=sLeft+'px'
+			div1.style.top=sTop+'px'
+			if(pz(div1,div2)){
+			div2.style.background='yellow'
+		}else{
+			div2.style.background='green'
+		}	
+		}
+		document.onmouseup=function(){
+			document.onmousemove=null			
+			document.onmouseup=null
+		}
+		return false
+		}
+
+		function pz(elm1,elm2){
+			let L1= elm1.offsetLeft
+			let R1=elm1.offsetLeft+elm1.offsetWidth
+			let T1=elm1.offsetTop
+			let B1=elm1.offsetTop+elm1.offsetHeight
+
+			let L2= elm2.offsetLeft
+			let R2=elm2.offsetLeft+elm2.offsetWidth
+			let T2=elm2.offsetTop
+			let B2=elm2.offsetTop+elm2.offsetHeight
+			
+			if(R1<L2 || L1>R2 || B1<T2 || T1>B2){
+				return false
+			}else{
+				return true
+			}
+
+		}
+		
+	</script>
+</body>
+</html>
