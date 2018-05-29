@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>放大镜</title>
+	<style type="text/css">
+		*{
+			margin:0;padding:0;
+		}
+		#largeBox{
+			display: inline-block;width: 360px;height: 240px;position: relative;overflow: hidden;
+		}
+		#largeBox img{
+			display: none;left: 0px;top:0px;position: absolute;
+		}
+		#midBox{
+			position: relative;width: 180px;display: inline-block;height: 240px;
+		}
+		#shadowBox{
+			height: 100px;width: 100px;background: yellow;opacity: 0.5;position: absolute;left: 0;top:0;display: none;
+		}
+		.current{
+			border:2px solid green;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="midBox">
+		<img src="./mid-01.jpg" id="midBoxImg">
+		<div id="shadowBox">
+			
+		</div>
+	</div>
+	<div id="largeBox">
+		<img src="./large-01.jpg" id="largeBoxImg"/>
+	</div>
+	<div id="smallBox">
+		<img src="./small-01.jpg" alt="" class="current">
+		<img src="./small-02.jpg" alt="">
+		<img src="./small-03.jpg" alt="">
+		<img src="./small-04.jpg" alt="">
+		<img src="./small-05.jpg" alt="">
+	</div>
+	<script type="text/javascript">
+		let oLargeBox=$id('largeBox')
+		let oLargeBoxImg=$id('largeBoxImg')
+		let oSmallBox=$id('smallBox')
+		let oMidBox=$id('midBox')
+		let oMidBoxImg=$id('midBoxImg')
+		let oShadowBox=$id('shadowBox')
+		let aSmallBoxImg=oSmallBox.getElementsByTagName('img')
+	
+			for(let i=0;i<aSmallBoxImg.length;i++){
+				aSmallBoxImg[i].onmouseenter=function(){
+					for(let i=0;i<aSmallBoxImg.length;i++){
+						aSmallBoxImg[i].className=''
+					}
+					this.className='current'
+					oMidBoxImg.src='./mid-0'+(i+1)+'.jpg'
+					oLargeBoxImg.src='./large-0'+(i+1)+'.jpg'
+
+				}
+			}
+
+		oMidBox.onmouseenter=function(ev){
+			oShadowBox.style.display='block'
+			oLargeBoxImg.style.display = 'block'
+		}	
+		oMidBox.onmouseleave=function(ev){
+			oShadowBox.style.display='none'
+			oLargeBoxImg.style.display = 'none'
+		}
+		oMidBox.onmousemove=function(ev){
+			let oMidLeft=ev.pageX-shadowBox.offsetWidth/2
+			let oMidTop=ev.pageY-shadowBox.offsetHeight/2
+			let oMaxMidLeft=oMidBox.offsetWidth-shadowBox.offsetWidth
+			shadowBox.style.left=oMidLeft+'px'
+			shadowBox.style.top=oMidTop+'px'
+			if(shadowBox.style.left<'0px'){
+				shadowBox.style.left='0px'
+			}
+			if(parseInt(shadowBox.style.left)>oMaxMidLeft){
+				
+				shadowBox.style.left=oMaxMidLeft+'px'	
+			}
+
+			if(shadowBox.style.top<'0px'){
+				shadowBox.style.top='0px'
+			}
+			if(parseInt(shadowBox.style.top)>oMidBoxImg.offsetHeight-shadowBox.offsetHeight){
+				shadowBox.style.top=oMidBoxImg.offsetHeight-shadowBox.offsetHeight+'px'
+			}
+		//ParseInt(oShadowBox.style.left)/oMidBox.offsetWidth-oShadowBox/2-oShadowBox/2=oLargeBox.offsetWidth/oLargeBoxImg.offsetWidth
+			oLargeBoxImg.style.left=-parseInt(oShadowBox.style.left)*oLargeBoxImg.offsetWidth/(oMidBox.offsetWidth-oShadowBox.offsetWidth/2)+'px'
+				oLargeBoxImg.style.top=-parseInt(oShadowBox.style.top)*oLargeBoxImg.offsetHeight/(oMidBox.offsetHeight-oShadowBox.offsetHeight/2)+'px'
+			// oLargeBoxImg.style.top=-oShadowBox.offsetTop*oLargeBoxImg.offsetHeight/oMidBox.offsetHeight+'px'
+
+
+
+		}	
+		function $id(id){
+			return document.getElementById(id)
+		}
+	</script>
+</body>
+</html>
