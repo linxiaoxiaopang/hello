@@ -2,77 +2,247 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>snake</title>
-</head>
-<style type="text/css">
-/*	.div{
-		width: 50px;height: 50px;background: red;position: absolute;text-align: center;line-height: 50px;
-	}*/
-	#div1{
-		width: 100px;height: 100px;background: red;position: absolute;z-index: 1;
-	}
-	#div2{
-		width: 200px;height: 150px;background: green;position: absolute;left:200px;top:200px;
-	}
-</style>
-<body>
-	<!-- <div class="div">1</div>
-	<div class="div">2</div>
-	<div class="div">3</div>
-	<div class="div">4</div>
-	<div class="div">5</div>
-	<script type="text/javascript">
-		let aDiv=document.getElementsByTagName('div')
-		for(let i=0;i<aDiv.length;i++){
-			console.log(aDiv.length)
-			aDiv[i].style.left=(aDiv.length-i)*55+'px'
+	<title>贪吃蛇</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		#main{
+			margin:20px auto;position: relative;
 		}
-		document.onkeydown=function(ev){
-
-			for(let i=aDiv.length-1;i>0;i--){
-				aDiv[i].style.left=aDiv[i-1].offsetLeft+'px'
-				aDiv[i].style.top=aDiv[i-1].offsetTop+'px'
-			}
-			if(ev.keyCode==39){
-					aDiv[0].style.left=aDiv[0].offsetLeft+55+'px'
-				
-			}else if(ev.keyCode==40){
-				aDiv[0].style.top=aDiv[0].offsetTop+5587+'px'
-			}
+		#gird{
+			border:1px solid black; overflow:hidden;border-right: none;border-bottom: none;
 		}
-	</script>	 -->
-	<div id="div1"></div>
-	<div id="div2"></div>
-	<script type="text/javascript">
-		let div1=document.getElementById('div1')
-		let div2=document.getElementById('div2')
-		let dirx=0;
-		let diry=0
-		let sLeft=0;
-		let sTop=0
-		div1.onmousedown=function(ev){
-			dirx=ev.pageX-div1.offsetLeft
-			diry=ev.pageY-div1.offsetTop
+		#gird li{
+			list-style-type:none;border:1px solid black;border-left: none;border-top: none;float: left;
+		}
+		
+		#gameScore{
+			float:right;
+		}
+		#snake{
 			
-			document.onmousemove=function(ev){
-			sLeft=ev.pageX-dirx
-			sTop=ev.pageY-diry	
-			div1.style.left=sLeft+'px'
-			div1.style.top=sTop+'px'
-			if(pz(div1,div2)){
-			div2.style.background='yellow'
-		}else{
-			div2.style.background='green'
-		}	
 		}
-		document.onmouseup=function(){
-			document.onmousemove=null			
-			document.onmouseup=null
+		.snakeHead{
+			background: url(./bj01.jpg) center;position: absolute;
 		}
-		return false
+		.snakeBody{
+			background: url(./bj01.jpg) center;opacity: 0.5;position: absolute;
 		}
+		.food{
+			background: url(./bj01.jpg) center;position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<ul id="gird">
+			
+		</ul>
+		<div id="snake">
+			<!-- <div class="snakeHead"></div> -->
+			<!-- <div class="clssBody"></div>
+			<div class="clssBody"></div>
+			<div class="clssBody"></div>
+			<div class="clssBody"></div> -->
 
-		function pz(elm1,elm2){
+		</div>
+		<button id="buttonGame">开始</button>
+		<div id="gameScore">积分0分</div>
+	</div>
+	<script type="text/javascript">
+		(function(){
+			let main=$id('main')
+			let gird=$id('gird')
+			let snake=$id('snake')
+			let sScore=0
+			let buttonGame=$id('buttonGame')
+			let girdLis=$tag(gird,'li')
+			let snakeDivs=$tag(snake,'div')
+			let girdData={size:20,cols:25,rows:25}
+			let snakeData={pos:0,speed:200,dir:39}
+
+			init()
+
+			function init(){
+				createGird()
+				gamePlay()
+			}
+
+			function createGird(){
+				main.style.width=(girdData.size+1)*girdData.cols+1+'px'
+				
+				for(let i=0;i<girdData.cols*girdData.rows;i++){
+					let girdLi=document.createElement('li')
+					girdLi.index=i
+					girdLi.style.width=girdLi.style.height=girdData.size+'px'
+					gird.appendChild(girdLi)
+
+				}
+			}
+			function gamePlay(){			
+				buttonGame.focus()
+				let isOff=true
+				buttonGame.onclick=function(){
+					createSnake()
+					snakeMove()
+					snakeBind()
+					craeteFood()
+					buttonGame.onclick=function(){
+						if(isOff){
+							stopMove()
+						}else{
+							buttonGame.innerHTML='开始'
+							snakeMove()
+						}
+						isOff=!isOff
+						
+					}
+				}
+			}
+
+			function stopMove(){
+				buttonGame.innerHTML='暂停'
+				clearInterval(timer1)
+			}
+
+			function createSnake(){
+				createSnakeHead()
+			}
+			function createSnakeHead(){
+				let snakeHead=document.createElement('div')
+				snakeHead.className='snakeHead'
+				snakeHead.style.width = snakeHead.style.height = girdData.size+'px'
+				snakeHead.style.left=girdLis[snakeData.pos].offsetLeft+'px'
+				snakeHead.style.top=girdLis[snakeData.pos].offsetTop+'px'
+				snakeHead.index=snakeData.pos
+				snake.appendChild(snakeHead)
+			}
+
+			function snakeMove(){
+				timer1=setInterval(function(){
+					for(let i=snakeDivs.length-1;i>0;i--){
+						snakeDivs[i].style.left=snakeDivs[i-1].offsetLeft+'px'
+						snakeDivs[i].style.top=snakeDivs[i-1].offsetTop+'px'
+						snakeDivs[i].index=snakeDivs[i-1].index
+					}
+					switch(snakeData.dir){
+						case 37:
+						snakeDivs[0].style.left=snakeDivs[0].offsetLeft-(girdData.size+1)+'px'
+						snakeDivs[0].index=snakeDivs[0].index-1
+						break;
+						case 38:
+						snakeDivs[0].style.top=snakeDivs[0].offsetTop-(girdData.size+1)+'px'
+						snakeDivs[0].index=snakeDivs[0].index-girdData.cols
+						break;
+						case 39:
+						snakeDivs[0].style.left=snakeDivs[0].offsetLeft+(girdData.size+1)+'px'
+						snakeDivs[0].index=snakeDivs[0].index+1
+						
+						break;
+						case 40:
+						snakeDivs[0].style.top=snakeDivs[0].offsetTop+(girdData.size+1)+'px'
+						snakeDivs[0].index=snakeDivs[0].index+girdData.cols
+						break;
+					}
+					
+					if(isOut() || isSelf()){
+							gameOver()
+						}
+
+					if(pz(snakeDivs[0],food)){
+						food.className='snakeBody'
+						snake.appendChild(food)
+						gameScore()
+						craeteFood()
+					}
+				}, snakeData.speed)
+			}
+
+			function snakeBind(){
+					document.onkeydown=function(ev){
+						switch(ev.keyCode){
+							case 37:
+							snakeData.dir=37	
+							break;
+							case 38:
+							snakeData.dir=38	
+							break;
+							case 39:
+							snakeData.dir=39	
+							break;
+							case 40:
+							snakeData.dir=40	
+							break;
+						}
+					}
+			}
+
+			function craeteFood(){
+				food=document.createElement('div')
+				let foodArr=[]
+				for(let i=0;i<girdLis.length;i++){
+					if(isFilter(girdLis[i])){
+						foodArr.push(girdLis[i])
+
+					}
+				}
+				let ranFood=Math.floor(Math.random()*foodArr.length)
+				food.style.width=food.style.height=girdData.size+'px'
+				food.className='food'
+				food.style.left=foodArr[ranFood].offsetLeft+'px'
+				food.style.top=foodArr[ranFood].offsetTop+'px'
+				main.appendChild(food)
+				
+			}
+
+			function gameScore(){
+				 sScore=sScore+10
+				let gameScore=$id('gameScore')
+				gameScore.innerHTML=`积分：${sScore}分`
+			}
+
+			function isFilter(li){
+				for(let k=0;k<snakeDivs.length;k++){
+					if(snakeDivs[k].index==li.index){
+						return false
+					}
+				}
+				return true
+			}
+
+			function isOut(){
+				for(let i=0;i<girdLis.length;i++){
+					if(pz(snakeDivs[0],girdLis[i])){
+						return false
+					}
+				}
+				return true
+			}
+
+			function isSelf(){
+				for(let i=1;i<snakeDivs.length;i++){
+					if(pz(snakeDivs[0],snakeDivs[i])){
+						return true
+					}
+				}
+				
+			}
+
+			function gameOver(){
+				alert('gameOver')
+				window.location.reload()
+			}
+
+			function $id(id){
+				return document.getElementById(id)
+			}
+			function $class(parent,names){
+				return parent.getElementsByClassName(names)
+			}
+			function $tag(parent,names){
+				return parent.getElementsByTagName(names)
+			}
+
+			function pz(elm1,elm2){
 			let L1= elm1.offsetLeft
 			let R1=elm1.offsetLeft+elm1.offsetWidth
 			let T1=elm1.offsetTop
@@ -90,7 +260,9 @@
 			}
 
 		}
-		
+
+
+		})()
 	</script>
 </body>
 </html>
