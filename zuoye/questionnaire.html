@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>问卷</title>
+	<style type="text/css">
+		*{
+			padding:0;margin: 0;
+		}
+		body{
+			background: url('./images/question-bj-body.jpg') ;
+		}
+		a{
+			text-decoration: none;display: block;padding: 5px;background: black;color:white;width: 150px;text-align: center;position: fixed;left: 0;top:0;opacity: 0.5;
+		}
+		a:hover{
+			opacity: 1;
+		}
+		
+		p{
+			font-size: 30px;font-family: '隶书';padding: 10px;margin: 40px;
+		}
+		/*h3{
+			display: inline-block;
+		}*/
+		form{
+			width: 60%;margin: 0px auto;border:3px groove black;padding-left: 40px;padding-bottom: 100px;
+		}
+		form input{
+			margin-left: 30px;
+		}
+		.group h4{
+			font-size: 20px;margin-top: 10px;
+		}
+		.group input{
+			font-size: 14px;margin-top: 10px;padding: 2px;
+		}
+		input[type='submit']{
+			border-radius: 50%;color:white;background: black;width: 75px;height: 75px;text-align: center;margin-top: 30px;
+		}
+		.group :hover,.group input:hover{
+				background: #ccc;
+		}
+	</style>
+</head>
+<body>
+	<span><a href="./index.html">返回主页</a></span>
+	<p>为了更好的了解班级各位同学，更快更好的解决各位同学的需求。这个页面定期发送一些问卷，并进行不记名的方式收集信息，希望同学们踊跃参与。</p>
+	<form>
+		<div class="group">
+		<label><h4>1、您的性别是？</h4></label>
+		<input type="radio" name="xingbie" required="" checked="">男
+		<input type="radio" name="xingbie" required="">女
+		</div>
+		</div>
+		
+		<div class="group">
+		<label><h4>2、您较多看的实体书还是电子书？</h4></label>
+		<input type="radio" name="chooseBook" required="">实体书<br>
+		<input type="radio" name="chooseBook" required="">电子书<br>
+		<input type="radio" name="chooseBook" required="">都不看<br>
+		</div>
+		<div class="group">
+		<h4>3、您了解图书馆的各项规章制度吗？</h4>
+		<input type="radio" name="library" required="">知道<br>
+		<input type="radio" name="library" required="">不知道<br>
+		<input type="radio" name="library" required="">知道一点
+		</div>
+		<div class="group">
+			<h4>4、您去图书馆的频率？</h4>
+			<input type="radio" name="pinglv" required="">每天<br>
+			<input type="radio" name="pinglv" required="">每周1～2次<br>
+			<input type="radio" name="pinglv" required="">每月几次<br>
+			<input type="radio" name="pinglv" required="">很少去<br>
+			<input type="radio" name="pinglv" required="">从没去过<br>
+		</div>
+
+		<div class="group">
+			<h4>5、您去图书馆的目的？</h4>
+			<label>目的：</label><input type="text" name="" required="">
+		</div>
+
+		<div class="group">
+			<h4>您对哪类图书感兴趣？</h4>
+			<input type="checkbox" name="scort" checked="">专业辅导书? <br>
+			<input type="checkbox" name="scort" >杂志报刊 <br>
+			<input type="checkbox" name="scort" >各类文学名著<br>
+			<input type="checkbox" name="scort" >没有兴趣<br>
+			 <label>其他：</label><input type="text" name='scort'>
+		</div>
+
+		<input type="submit" name="submit">提交问卷
+		<video  autoplay="" name='bgmusic' src="./bgmusic/rensheng.mp3" height="1px"> </video>
+	</form>
+	<script type="text/javascript">
+		let oSubmit=document.getElementsByName('submit')[0]
+		console.log(oSubmit)
+		let oIputChebox=document.getElementsByName('scort')
+		oSubmit.onclick=function(){
+		let checkboxBool=false
+		for(let i=0;i<oIputChebox.length;i++){
+			if(oIputChebox[i].checked==true ||oIputChebox[i].value!=null ){
+				checkboxBool=true
+				
+			}
+
+		}
+		if(checkboxBool==false){
+				alert('请填写选项5！！')
+				return false
+			}
+
+		}
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>校园生活</title>
+	<style type="text/css">
+		*{
+			padding: 0;margin: 0;
+		}
+		li{
+			list-style-type: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		body{
+				background: url('./images/index-bj-top.jpg');
+		}
+		.top{
+			height: 90px;text-align: center;line-height: 80px;font-size: 30px;
+		}
+		#tabUl{
+			overflow: hidden;margin-bottom: 5px;padding:3px; 
+		}
+		#tabUl li{
+			float: left;width: 20%;
+		}
+		#tabUl li a{
+			color:black;display: block;padding: 5px;box-sizing: border-box;
+		}
+		#tabUl li a:hover{
+			color:red;
+		}
+		.mid{
+			width: 100%;height: 500px;
+		}
+		.mid .midLeft{
+			float: left;
+		}
+		.mid .midMid{
+			display: inline-block;width:60%;overflow: hidden;height: 400px;
+		}
+		.mid .midMid img{
+			width: 100%;
+		}
+		.mid .midRight{
+			float: right;
+		}
+		.mid .midLeft,.mid .midRight{
+			width:20%;height:500px;
+		}
+		#ulImg li{
+			float: left;width:12.5%;
+		}
+		.shupai{
+			width: 20px;padding:20px;text-shadow: 10px 20px 5px red;border:3px groove red;
+		}
+
+		.marLeft{
+			margin-left: 25%;
+		}
+		.marRight{
+			margin-left: 55%;
+		}
+		.info{
+			position: fixed;right: 0;bottom: 0;padding: 3px;background: #ccc;opacity: 0.8;font-weight: 800;border:3px groove  black;font-size: 25px;
+		}
+		.bottom{
+			height: 80px;width: 100%;text-align: center;background: red;line-height: 80px;
+		}
+		
+		.photoShow{
+			width: 60%;margin:0px auto;text-align: center;overflow: hidden;
+		}
+		.photoShow h1{
+			color: red;margin-bottom: 30px;
+		}
+		.photoShow li{
+			width: 20%;float: left;
+		}
+		.photoShow img{
+			width: 100%;
+		}
+		.photoShow img:hover{
+			transform:scale(1.2,1.2);
+		}
+	</style>
+</head>
+<body>
+
+	<div  class="top">
+	<ul id="tabUl">
+		<li><a href="./index.html">首页</a></li>
+		<li><a href="./frameset.html">框架集</a></li>
+		<li><a href="./phptoshow.html">班级成员信息</a></li>
+		<li><a href="./questionnaire.html">问卷</a></li>
+		<li><a href="./about.html">关于作者</a></li>
+		
+	</ul>
+	</div>
+	<div class="mid">
+		<div class="midLeft">
+			<div class="shupai marLeft">
+			<h2>效苏秦之刺股折桂还需苦战</h2>
+			</div>
+		</div>
+		<div class="midMid">
+			<ul id="ulImg">
+				<li><img src="./images/1.jpg" alt=""></li>
+				<li><img src="./images/2.jpg" alt=""></li>
+				<li><img src="./images/3.jpg" alt=""></li>
+				<li><img src="./images/4.jpg" alt=""></li>
+				<li><img src="./images/1.jpg" alt=""></li>
+				<li><img src="./images/2.jpg" alt=""></li>
+				<li><img src="./images/3.jpg" alt=""></li>
+				<li><img src="./images/4.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="midRight">
+			<div class="shupai marRight">
+			<h2 >学陶侃之惜时付出必有回报</h2>
+			</div>
+		</div>
+	</div>
+	<div class="photoShow">
+		<h1>照片墙</h1>
+		<ul>
+			<li><img src="./images/index-01.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-02.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-03.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-04.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-05.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-06.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-07.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-08.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-09.jpg" alt="" name="photoFlake"></li>
+			<li><img src="./images/index-10.jpg" alt="" name="photoFlake"></li>
+		</ul>
+	</div>
+	<div class="bottom">
+		<h1>班级主题网站</h1>
+	</div>
+	<div class="info">
+		<label>班级：某某班级</label><br>
+		<label>学号：1008611</label><br>
+		<label>姓名：小仙女</label>
+	</div>
+	<video  autoplay="" name='bgmusic' src="./bgmusic/haijiaoqihao.mp3" hidden=""> </video>
+	<script type="text/javascript">
+		window.onload=function(){
+
+
+		let timer=null
+			let oUlimg=$id('ulImg')
+			let oMidMid=$name('midMid')[0]
+		
+
+		
+			let now=0
+			move(now)
+			oMidMid.onmouseover=function(){
+				clearInterval(timer)
+			}
+			oMidMid.onmouseout=function(){
+				move(now)
+			}
+		 
+
+		 let oDiv=document.getElementsByTagName('div')[0]
+			let flakeColor='white'
+			let moveTime=200
+			let endTop=document.documentElement.offsetHeight-150
+			let num=0
+			let nowNum=0
+			let timer1=null
+			let aPhotoFlake=document.getElementsByName(	'photoFlake')
+			let oBody=document.getElementsByTagName('body')[0]
+
+
+			// alert(document.documentElement.offsetWidth)
+			for(let i=0;i<aPhotoFlake.length;i++){
+			
+			console.log(aPhotoFlake.length)
+				aPhotoFlake[i].onclick=function(){
+						clearInterval(timer1)
+			timer1=setInterval(function(){
+				let startLeft=Math.random()*document.documentElement.offsetWidth
+				let startOpac=Math.random()*30+70
+				let endOpac=Math.random()*30+40
+				let snowTime=Math.random()*100+100
+				let endLeft=Math.random()*document.documentElement.offsetWidth
+				
+				
+				let oSnowDiv=document.createElement('div')
+				oSnowDiv.style.color=flakeColor
+				oSnowDiv.style.position='absolute'
+				oSnowDiv.style.opacity='1'
+				oSnowDiv.style.top=-55+'px'
+				oSnowDiv.style.left=startLeft+'px'
+				oSnowDiv.style.zIndex = '100'
+				// oSnowDiv.style.fontSize=(Math.random()*40+15)+'px'
+				let flake=oSnowDiv.innerHTML=`<img src="./images/index-0${i+1}.jpg" alt="" style=width:${(Math.random()*40+30)}px />`
+				
+				// flake.style.width=(Math.random()*40+15)+'px'
+				// flake.style.height=(Math.random()*40+15)+'px'
+				oDiv.appendChild(oSnowDiv)
+			starMove1(oSnowDiv,{top:endTop},function(){
+				
+				oDiv.removeChild(oSnowDiv)
+				
+				
+				 
+			})
+			nowNum++
+			if(nowNum==20){
+				nowNum=0
+				clearInterval(timer1)
+			}
+
+			},moveTime)
+					}
+		
+						}
+
+
+		function move(now){
+			oMid=$name('mid')[0]
+			oUlimg.style.width=oMidMid.offsetWidth*8+'px'
+			clearInterval(timer)
+			timer=setInterval(()=>{
+				 now++
+				if(now<=4){
+					 oUlimg.style.marginLeft =-oMidMid.offsetWidth*now+'px'
+					
+				}else{
+					now=0
+				}
+              
+			}, 2000)
+
+		}
+
+
+
+		 function $id(id){
+			return document.getElementById(id)
+		}
+		function $tag(parent,name){
+			return parent.getElementsByTagName(name)
+		}
+		function $name(name){
+			return document.getElementsByClassName(name)
+		}
+
+		function starMove1(obj,json,endFn){				
+			clearInterval(obj.timer)
+			obj.timer=setInterval(function(){
+				var bool=true
+				for(var i in json){
+								if(i=='opacity'){
+									// var cur=parseFloat(getComputedStyle(obj,false)[i]*100)
+									var cur=parseFloat(obj.style[i]*100)
+									
+									var speed=json[i]-cur
+									speed=speed/100
+								}else{
+									// var cur=parseInt(getComputedStyle(obj,false)[i])
+									var cur=parseInt(obj.style[i])
+									speed=json[i]-cur
+									speed=speed>0?json[i]/100:-json[i]/100								}														
+								if(Math.abs((json[i]-cur))<speed){
+								}else{
+									bool=false
+								if (i=='opacity') {
+									obj.style[i]=(cur+speed)/100
+									}else{
+									obj.style[i]=(cur+speed)+'px'
+									}
+								}
+													
+						}
+						 if(bool!=false){
+						 		clearInterval(obj.timer)
+								if(endFn)endFn()
+						}}
+						
+		,30)
+		}
+		
+		}	 
+		
+	</script>
+</body>
+</html>
