@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>校园生活</title>
+	<style type="text/css">
+		*{
+			padding: 0;margin: 0;
+		}
+		li{
+			list-style-type: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		body{
+				background: url('./images/index-bj-top.jpg');
+		}
+		.top{
+			height: 90px;text-align: center;line-height: 80px;font-size: 30px;
+		}
+		#tabUl{
+			overflow: hidden;margin-bottom: 5px;padding:3px; 
+		}
+		#tabUl li{
+			float: left;width: 20%;
+		}
+		#tabUl li a{
+			color:black;display: block;padding: 5px;box-sizing: border-box;
+		}
+		#tabUl li a:hover{
+			color:red;
+		}
+		.mid{
+			width: 100%;height: 500px;
+		}
+		.mid .midLeft{
+			float: left;
+		}
+		.mid .midMid{
+			display: inline-block;width:60%;overflow: hidden;height: 400px;
+		}
+		.mid .midMid img{
+			width: 100%;
+		}
+		.mid .midRight{
+			float: right;
+		}
+		.mid .midLeft,.mid .midRight{
+			width:20%;height:500px;
+		}
+		#ulImg li{
+			float: left;width:12.5%;
+		}
+		.shupai{
+			width: 20px;padding:20px;text-shadow: 10px 20px 5px red;border:3px groove red;
+		}
+
+		.marLeft{
+			margin-left: 25%;
+		}
+		.marRight{
+			margin-left: 55%;
+		}
+		.info{
+			position: fixed;right: 0;bottom: 0;padding: 3px;background: #ccc;opacity: 0.8;font-weight: 800;border:3px groove  black;
+		}
+		.bottom{
+			height: 80px;width: 100%;text-align: center;
+		}
+		.bottom img{
+			margin-top: -100px;
+		}
+	</style>
+</head>
+<body>
+
+	<div  class="top">
+	<ul id="tabUl">
+		<li><a href="./index.html">首页</a></li>
+		<li><a href="./frameset.html">框架集</a></li>
+		<li><a href="./phptoshow.html">班级成员信息</a></li>
+		<li><a href="./questionnaire.html">问卷</a></li>
+		<li><a href="./about.html">关于作者</a></li>
+		
+	</ul>
+	</div>
+	<div class="mid">
+		<div class="midLeft">
+			<div class="shupai marLeft">
+			<h2>效苏秦之刺股折桂还需苦战</h2>
+			</div>
+		</div>
+		<div class="midMid">
+			<ul id="ulImg">
+				<li><img src="./images/1.jpg" alt=""></li>
+				<li><img src="./images/2.jpg" alt=""></li>
+				<li><img src="./images/3.jpg" alt=""></li>
+				<li><img src="./images/4.jpg" alt=""></li>
+				<li><img src="./images/1.jpg" alt=""></li>
+				<li><img src="./images/2.jpg" alt=""></li>
+				<li><img src="./images/3.jpg" alt=""></li>
+				<li><img src="./images/4.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="midRight">
+			<div class="shupai marRight">
+			<h2 >学陶侃之惜时付出必有回报</h2>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<img src="./images/index-bj-bottom.jpg">
+	</div>
+	<div class="info">
+		<label>班级：某某班级</label><br>
+		<label>学号：1008611</label><br>
+		<label>姓名：小仙女</label>
+	</div>
+	<video  autoplay="" name='bgmusic' src="./bgmusic/haijiaoqihao.mp3" height="1px"> </video>
+	<script type="text/javascript">
+		let timer=null
+			let oUlimg=$id('ulImg')
+			let oMidMid=$name('midMid')[0]
+		
+
+		
+			let now=0
+			move(now)
+			oMidMid.onmouseover=function(){
+				clearInterval(timer)
+			}
+			oMidMid.onmouseout=function(){
+				move(now)
+			}
+		 
+
+
+
+		function move(now){
+			oMid=$name('mid')[0]
+			oUlimg.style.width=oMidMid.offsetWidth*8+'px'
+			clearInterval(timer)
+			timer=setInterval(()=>{
+				 now++
+				if(now<=4){
+					 oUlimg.style.marginLeft =-oMidMid.offsetWidth*now+'px'
+					
+				}else{
+					now=0
+				}
+              
+			}, 2000)
+
+		}
+
+
+
+		 function $id(id){
+			return document.getElementById(id)
+		}
+		function $tag(parent,name){
+			return parent.getElementsByTagName(name)
+		}
+		function $name(name){
+			return document.getElementsByClassName(name)
+		}
+			 
+		
+	</script>
+</body>
+</html>
