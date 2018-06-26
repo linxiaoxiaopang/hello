@@ -81,8 +81,8 @@
 		</div>
 
 		<div class="group">
-			<h4>您对哪类图书感兴趣？</h4>
-			<input type="checkbox" name="scort" checked="">专业辅导书? <br>
+			<h4>6、您对哪类图书感兴趣？</h4>
+			<input type="checkbox" name="scort" >专业辅导书? <br>
 			<input type="checkbox" name="scort" >杂志报刊 <br>
 			<input type="checkbox" name="scort" >各类文学名著<br>
 			<input type="checkbox" name="scort" >没有兴趣<br>
@@ -97,16 +97,20 @@
 		console.log(oSubmit)
 		let oIputChebox=document.getElementsByName('scort')
 		oSubmit.onclick=function(){
+			console.log(oIputChebox.length)
+
 		let checkboxBool=false
 		for(let i=0;i<oIputChebox.length;i++){
-			if(oIputChebox[i].checked==true ||oIputChebox[i].value!=null ){
+			console.log(i)
+			if(oIputChebox[i].checked==true ||oIputChebox[oIputChebox.length-1].value !=""  ){
 				checkboxBool=true
 				
 			}
 
 		}
 		if(checkboxBool==false){
-				alert('请填写选项5！！')
+			
+				alert('请填写选项6！！')
 				return false
 			}
 

@@ -17,7 +17,7 @@
 				background: url('./images/index-bj-top.jpg');
 		}
 		.top{
-			height: 90px;text-align: center;line-height: 80px;font-size: 30px;
+			height: 90px;text-align: center;line-height: 80px;font-size: 30px;background: url('./images/index-top-img.jpg') 40px ;margin-bottom: 20px;border-bottom: 2px solid #ccc;
 		}
 		#tabUl{
 			overflow: hidden;margin-bottom: 5px;padding:3px; 
@@ -62,12 +62,11 @@
 		.marRight{
 			margin-left: 55%;
 		}
-		.info{
-<<<<<<< HEAD
+		/*.info{
 			position: fixed;right: 0;bottom: 0;padding: 3px;background: #ccc;opacity: 0.8;font-weight: 800;border:3px groove  black;font-size: 25px;
-		}
+		}*/
 		.bottom{
-			height: 80px;width: 100%;text-align: center;background: red;line-height: 80px;
+			height: 80px;width: 100%;text-align: center;background:url('./images/index-bottom-img.jpg') 0px -50px;line-height: 80px;border:2px solid #ccc;margin-top: 30px;padding-left: 10px;
 		}
 		
 		.photoShow{
@@ -84,15 +83,15 @@
 		}
 		.photoShow img:hover{
 			transform:scale(1.2,1.2);
-=======
-			position: fixed;right: 0;bottom: 0;padding: 3px;background: #ccc;opacity: 0.8;font-weight: 800;border:3px groove  black;
 		}
-		.bottom{
-			height: 80px;width: 100%;text-align: center;
+		.bottom li{
+			float: left;width: 33%;text-align: left;line-height:80px;height: 80px;
 		}
-		.bottom img{
-			margin-top: -100px;
->>>>>>> e93f7a292097b3d761ae24e502310f90f210e075
+		.bottom li h2{
+			display: inline-block;
+		}
+		.bottom li label{
+			font-size: 15px;font-weight: bolder;color:red;
 		}
 	</style>
 </head>
@@ -132,7 +131,6 @@
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
 	<div class="photoShow">
 		<h1>照片墙</h1>
 		<ul>
@@ -149,27 +147,32 @@
 		</ul>
 	</div>
 	<div class="bottom">
-		<h1>班级主题网站</h1>
-=======
-	<div class="bottom">
-		<img src="./images/index-bj-bottom.jpg">
->>>>>>> e93f7a292097b3d761ae24e502310f90f210e075
+		<ul>
+			<li>
+				<h2>班级：</h2>
+				<label for="">空乘 162</label>
+			</li>
+			<li>
+				<h2>学号：</h2>
+				<label for="">1620041087</label>
+			</li>
+			<li>
+				<h2>姓名：</h2>
+				<label for="">薛卿莹</label>
+			</li>
+		</ul>
 	</div>
-	<div class="info">
+
+	<!-- <div class="info">
 		<label>班级：某某班级</label><br>
 		<label>学号：1008611</label><br>
 		<label>姓名：小仙女</label>
-	</div>
-<<<<<<< HEAD
+	</div> -->
 	<video  autoplay="" name='bgmusic' src="./bgmusic/haijiaoqihao.mp3" hidden=""> </video>
 	<script type="text/javascript">
 		window.onload=function(){
 
 
-=======
-	<video  autoplay="" name='bgmusic' src="./bgmusic/haijiaoqihao.mp3" height="1px"> </video>
-	<script type="text/javascript">
->>>>>>> e93f7a292097b3d761ae24e502310f90f210e075
 		let timer=null
 			let oUlimg=$id('ulImg')
 			let oMidMid=$name('midMid')[0]
@@ -186,7 +189,6 @@
 			}
 		 
 
-<<<<<<< HEAD
 		 let oDiv=document.getElementsByTagName('div')[0]
 			let flakeColor='white'
 			let moveTime=200
@@ -242,8 +244,6 @@
 					}
 		
 						}
-=======
->>>>>>> e93f7a292097b3d761ae24e502310f90f210e075
 
 
 		function move(now){
@@ -274,7 +274,6 @@
 		function $name(name){
 			return document.getElementsByClassName(name)
 		}
-<<<<<<< HEAD
 
 		function starMove1(obj,json,endFn){				
 			clearInterval(obj.timer)
@@ -312,9 +311,6 @@
 		}
 		
 		}	 
-=======
-			 
->>>>>>> e93f7a292097b3d761ae24e502310f90f210e075
 		
 	</script>
 </body>
