@@ -1,0 +1,78 @@
+.web{
+	background: url(../images/content-tail.gif);
+	width: 1350px;
+}
+.top_bar .r_navs li:nth-child(2) a{
+	color:#c52821;
+
+}
+
+.web .club_conent{
+	margin-top: 35px;
+	line-height: 25px;
+	font-size: 14px;
+} 
+.club_conent .l_content{
+	float: left;
+	width: 601px;
+}
+
+.club_conent .l_content .title{
+	font-size: 28px;
+	margin-bottom: 24px;
+	color:#fff;
+	margin-top: 15px;
+}
+.l_content .desc .font_bold{
+	font-weight: 700;
+	color:#fff;
+}
+.l_content  .img_box .img{
+	float: left;
+	margin:16px 16px 0 0;
+	width: 228px;
+}
+.l_content .img_box .img_desc{
+	float: left;
+	width: 357px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 16px;
+
+}
+
+
+
+.club_conent .r_content{
+	width: 308px;
+	float: left;
+}
+.r_content .title{
+	padding-left: 22px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	line-height: 39px;
+	font-size: 20px;
+	color:#fff;
+	width: 300px;
+	height: 39px;
+	background-color:  #0f0f0f;
+}
+.r_content .desc,.r_content .news{
+	padding-left: 22px;
+	box-sizing: border-box;
+
+}
+.r_content .desc{
+	margin-top: 30px;
+}
+.r_content .news span{
+	color: #fff;
+	font-weight: 700;
+	margin-right: 15px;
+}
+.r_content .news  .new{
+	border-bottom: 1px dashed #292b2a;
+	line-height: 29px;
+	/*border-right-style: dashed;*/
+}

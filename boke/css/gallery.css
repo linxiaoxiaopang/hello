@@ -1,0 +1,139 @@
+.web{
+	background: url(../images/content-tail.gif);
+	width: 1350px;
+}
+.top_bar .r_navs li:nth-child(5) a{
+	color:#c52821;
+
+}
+.web .l_content{
+	width: 600px;
+	margin-right: 39px;
+	float: left;
+}
+
+.l_content .title{
+	margin-top: 50px;
+	font-size: 34px;
+	color:#fff;
+
+}
+.l_content .imgs_box{
+	margin-top: 40px;
+	margin-bottom: 35px;
+	width: 600px;
+	height: 378px;
+	background: url(../images/gallery-img1.jpg) no-repeat;
+	animation: move 10s linear;
+	animation-iteration-count: infinite;
+}
+/*轮播*/
+@keyframes move{
+	0%{
+	 	background: url(../images/gallery-img1.jpg) no-repeat;
+	}
+	15%{
+		background: url(../images/gallery-img1.jpg) no-repeat;
+	}
+	20%{
+		background: url(../images/gallery-img2.jpg) no-repeat;
+	}
+	35%{
+		background: url(../images/gallery-img2.jpg) no-repeat;
+	}
+	40%{
+		background: url(../images/gallery-img3.jpg) no-repeat;
+	}
+	55%{
+		background: url(../images/gallery-img3.jpg) no-repeat;
+	}
+	60%{
+		background: url(../images/gallery-img4.jpg) no-repeat;
+	}
+	75%{
+		background: url(../images/gallery-img4.jpg) no-repeat;
+	}
+	80%{
+		background: url(../images/gallery-img5.jpg) no-repeat;
+	}
+	95%{
+		background: url(../images/gallery-img5.jpg) no-repeat;
+	}
+	100%{
+		background: url(../images/gallery-img1.jpg) no-repeat;
+	}
+
+	}
+
+
+.l_content .l_img_navs .img_nav{
+	float: left;
+	width: 182px;
+	margin-right: 27px;
+	margin-bottom: 25px;
+
+
+}
+.l_content .l_img_navs .img_nav:nth-child(3n){
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.l_content .img_nav .l_img{
+	width: 100%;
+}
+.l_content .btn_box{
+	margin-top: 3px;
+}
+
+.r_content{
+	width: 300px;
+	float: left;
+}
+.r_content .title{
+	margin:42px 0px 32px 0;
+	padding-left: 18px;
+	border-radius: 5px;
+	color:#fff;
+	font-size: 25px;
+	width: 100%;
+	height: 47px;
+	line-height: 47px;
+	background-color: #101010;
+}
+.r_content .btn_box,.r_content .desc_one,.r_content .desc_two,.archive_navs{
+	margin-left: 18px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.r_content .desc_one{
+	margin-top: 60px;
+}
+.r_content .desc_two{
+	margin-top: 20px;
+}
+.r_content .item {
+	border-bottom: 1px dashed #323433;
+	padding: 5px 0px;
+}
+.r_content .item a{
+	font-size: 14px;
+	color:#fff;
+	font-style: italic;
+	line-height: 24px;
+
+}
+.r_content .item a:hover{
+	color:#c52821;
+}
+.r_content .item a span{
+	display: inline-block;
+	border-left: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	padding-right: 5px;
+	/*background: transparent;*/
+	height: 0px;
+	width: 0px;
+
+}

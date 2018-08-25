@@ -1,0 +1,132 @@
+.web{
+	background: url(../images/content-tail.gif);
+}
+.top_bar .r_navs li:nth-child(3) a{
+	color:#c52821;
+
+}
+.web .mid_content{
+   line-height: 24px;
+   font-size: 14px;
+   margin-top: 35px;
+}
+.mid_content .l_contnet{
+	width: 618px;
+	float: left;
+
+	
+}
+.l_contnet .desc{
+	margin-top: 25px;
+}
+.l_contnet .news{
+	margin-top: 20px;
+}
+.l_contnet .l_news_items{
+	float: left;
+	margin-right: 18px;
+	box-sizing: border-box;
+}
+.l_contnet .l_news_items:last-child{
+	margin-right:  0px;
+}
+.l_news_items .item{
+	padding:9px 0;
+	border-bottom: 1px  dashed #323433;
+	/*border-style: dashed;*/
+}
+.l_news_items .item:last-child{
+	border-bottom:0 none;
+}
+.l_news_items .item span{
+	display: inline-block;
+	height: 0px;
+	width: 0px;
+	/*border-color: transparent;*/
+	border-left: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	padding-right: 7px;
+}
+.l_news_items .item a{
+	font-size: 13px;
+}
+.l_contnet .title{
+	font-size: 30px;
+	color:#fff;
+
+}
+.l_contnet .btn_box{
+	border-bottom: 1px dashed #323433;
+	padding-bottom: 25px; 
+}
+.btn_more{
+	margin-top: 20px;
+}
+
+.l_contnet .advancement{
+	margin-top: 22px;
+}
+.l_contnet .advancement .desc{
+	margin-top: 22px;
+}
+.advancement .desc .font_bold{
+	color:#fff;
+	font-weight: 700;
+}
+.advancement .advancement_img_box{
+	margin-top: 20px;
+
+}
+.advancement .advancement_img_box img{
+	width: 221px;
+	float: left;
+	padding-right: 20px;
+}
+.advancement .advancement_img_box .img_desc{
+	width: 355px;
+	float: left;
+
+}
+
+
+.mid_content .r_content{
+	width: 304px;
+	float: left;
+	margin-left: 24px;
+}
+.r_content .title{
+	padding-left: 21px;
+	line-height: 47px;
+	border-radius: 5px;
+	height: 47px;
+	width: 304px;
+	font-size: 20px;
+	color:#fff;
+	background: #0f0f0f;
+}
+.mid_content .r_content .img{
+	padding: 29px 0 25px 18px ; 
+}
+.r_content .btn_box,.Badges_desc,.badges_news{
+	margin-left: 18px;
+}
+.badges_news .item{
+	border-bottom: 1px dashed #323433;
+	padding:9px 0px;
+}
+.badges_news .item a{
+	font-size: 14px;
+    color:#fff;
+}
+.badges_news .item a:hover{
+	color:#c52821
+}
+.badges_news .item:last-child{
+	border-bottom: 0 none;
+}
+.mid_content .r_content .bot{
+	margin-top: 33px;
+
+}

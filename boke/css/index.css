@@ -1,0 +1,214 @@
+.top_bar .r_navs li:first-child a{
+	color:#c52821;
+
+}
+
+.troops{
+	position: relative;
+	width: 100%;
+	height: 347px;
+	/*overflow: hidden;*/
+	background-image:linear-gradient(to right,#0f0f0f,#0b0b0b);
+}
+.troops .l_desc{
+	overflow: hidden;
+}
+.troops .title{
+	margin-top: 68px;
+	width: 501px;
+	height: 48px;
+	background: url(../images/welcome.jpg) no-repeat;
+	margin-left: -10px;
+}
+.troops .text{
+	width: 584px;
+	line-height: 24px;
+}
+
+.troops .r_img{
+	position: absolute;
+	left: 832px;
+	top:-26px;
+	width: 350px;
+	height: 391px;
+	background:url(../images/page1-img1.png);
+
+} 
+.club{
+	width: 100%;
+	padding-top: 40px;
+	background: #1c1e1d;
+}
+.club .banner img{
+	margin-right: 18px;
+}
+.event_box{
+	margin-top: 58px;
+	padding-bottom: 100px;
+
+}
+.event_box .l_event{
+	width: 620px;
+	float: left;
+
+}
+.event_box .l_event h2{
+	font-size: 35px;
+	color: #fefefe;
+
+}
+.event_box .date{
+	border-radius: 6px 6px 0 0;
+	line-height: 67px;
+	font-size: 30px;
+	text-align: center;
+	background-color: #dcdcdc;
+	margin-right: 18px;
+	width: 67px;
+	height: 67px;
+	float: left;
+
+
+}
+.event_box .title+.date:before{
+	content: "Tuesday";
+	display: block;
+	border-radius: 5px 5px 0 0;
+	position: absolute;
+	background: #f23b00;
+	font-size: 12px;
+	font-weight: bold;
+	color:#dcdcdc;
+	width: 67px;
+	height: 12px;
+	line-height: 12px;
+
+}
+.event_box .date:before{
+	content: "Monday";
+	display: block;
+	border-radius: 5px 5px 0 0;
+	position: absolute;
+	background: #f23b00;
+	font-size: 12px;
+	font-weight: bold;
+	color:#dcdcdc;
+	width: 67px;
+	height: 12px;
+	line-height: 12px;
+
+}
+.event_box .font_bold{
+	color: #dcdcdc;
+	font-size: bold;
+}
+.event_box .event_desc{
+	float: left;
+	width: 535px;
+	line-height: 24px;
+	font-size: 14px;	
+}
+.l_wrapper{
+	padding-bottom: 24px;
+	border-bottom: 1px dashed #f2f2f2;
+	/*background: red;*/
+
+}
+.l_wrapper:last-child{
+	border-bottom: 0px none;
+	padding-top: 30px;
+}
+
+.event_box .r_event{
+	width: 285px;
+	float: left;
+	margin-left: 18px;
+
+}
+.event_box .r_event h2{
+	padding-left: 20px;
+	width: 100%;
+	height: 56px;
+	background: #0e0e0e;
+	text-align: left;
+	line-height: 56px;
+	font-size: 22px;
+	color:#f2f2f2;
+	border-radius: 5px;
+}
+.event_box .r_event li{
+	padding-bottom: 12px;
+	border-bottom: 1px dashed #fefefe;
+	/*border-style: dashed;*/
+}
+.event_box .r_event li:last-child{
+	border-bottom:0 none;
+}
+.event_box .r_event li>a{
+	display: block;
+	color:#fefefe;
+	font-style: italic;
+	font-size: 14px;
+	vertical-align: middle;
+	/*background: red;*/
+}
+.event_box .r_event li>a:hover{
+	color:#c52821;
+}
+.event_box .r_event .news{
+	/*background: green;*/
+	padding-left: 20px;
+	margin-top: 25px;
+
+}
+.event_box .r_event a span{
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 5px solid #fefefe;
+	border-top: 5px solid transparent;
+	/*color:transparent;*/
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	margin-right: 7px;
+
+}
+.r_event .troop_meet{
+	width: 285px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #0e0e0e;
+	border-radius: 5px;
+}
+.desc_img{
+	float: left;
+	margin-right: 20px;
+	background: green;
+}
+.desc_text{
+	float: left;
+	width: 335px;
+	line-height: 24px;
+	padding-bottom:30px; 
+
+}
+ .r_event .troop_meet .title{
+ 	padding-left: 0px;
+	color: #929292;
+	text-align: left;
+}
+.r_event .meet_img{
+	width: 100%;
+	height: 79px;
+}
+.troop_meet .time{
+	color:#f0eee2;
+	margin-top: 18px;
+}
+.troop_meet p{
+	line-height: 20px;
+	font-size: 14px;
+}
+.web .bottom{
+	margin-top: 0px;
+}
+
