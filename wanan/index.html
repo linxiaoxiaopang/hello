@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		body{
+			background-image: url(dt.gif);
+		}
+		.box{
+			position: relative;
+			margin:50% auto;
+			width: 300px;
+			height: 290px;
+			
+			transform-style: preserve-3d;
+			animation: move 6s  ease-in-out alternate;
+			animation-iteration-count: infinite;
+			
+		}
+		.box div{
+			width: 100%;
+			position: absolute;
+			background: transparent;
+		}
+		.box ul{
+			width: 100%;
+			height: 100%;
+			list-style: none;
+			position: absolute;
+		}
+		.box li{
+			border-radius: 20px;
+			float: left;
+			margin:5px;
+			height: 90px;
+			width: 90px;
+			line-height: 90px;
+			text-align: center;
+			font-size: 50px;
+		}
+		.before{
+
+			transform: translateZ(150px) ;
+		}
+		.back{
+			 transform: translateZ(-150px);
+
+		}
+		.top{
+			transform: rotateX(90deg) translateY(-150px);
+		}
+		.bottom{
+			transform: rotateX(-90deg) translateY(-150px) translateZ(300px);
+		}
+		.left{
+			transform: rotateY(90deg) translateZ(150px);
+		}
+		.right{
+			transform: rotateY(-90deg) translateZ(150px);
+		}
+		 .before li {
+            background-color: green;
+        }
+         .back li {
+             background-color:chartreuse;
+         }
+
+         .top li {
+              background-color: purple;
+         }
+
+         .bottom li {
+              background-color: cornflowerblue;
+         }
+
+         .left li {
+              background-color: darkorange;
+         }
+
+         .right li {
+              background-color: #37ffc7;
+         }
+
+        .box:hover {
+             animation-play-state: paused;
+        }
+        
+		@keyframes move{
+			 0% {
+                transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            }
+
+            20% {
+                transform: rotateY(30deg) rotateX(40deg) rotateZ(20deg);
+            }
+
+            40% {
+                transform: rotateY(-60deg) rotateX(-40deg) rotateZ(-20deg);
+            }
+
+            60% {
+                transform: rotateY(145deg) rotateX(80deg) rotateZ(10deg);
+            }
+
+            80% {
+                transform: rotateY(90deg) rotateX(60deg) rotateZ(-20deg);
+            }
+
+            100% {
+                transform: rotateY(135deg) rotateX(-45deg) rotateZ(30deg);
+            }
+
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="before">
+		<ul>
+			<li class="grand">我</li>
+			<li class="grand">是</li>
+			<li class="grand">天</li>
+			<li class="grand">菜</li>
+			<li class="grand">呀</li>
+			<li class="grand">6</li>
+			<li class="grand">7</li>
+			<li class="grand">8</li>
+			<li class="grand">9</li>
+		</ul>
+		</div>
+		<div class="bottom">
+		<ul>
+			<li class="grand">1</li>
+			<li class="grand">2</li>
+			<li class="grand">3</li>
+			<li class="grand">4</li>
+			<li class="grand">5</li>
+			<li class="grand">6</li>
+			<li class="grand">7</li>
+			<li class="grand">8</li>
+			<li class="grand">9</li>
+		</ul>
+		</div>
+		<div class="back">
+		<ul>
+			<li class="grand">1</li>
+			<li class="grand">2</li>
+			<li class="grand">3</li>
+			<li class="grand">4</li>
+			<li class="grand">5</li>
+			<li class="grand">6</li>
+			<li class="grand">7</li>
+			<li class="grand">8</li>
+			<li class="grand">9</li>
+		</ul>
+		</div>
+		<div class="top">
+		<ul>
+			<li class="grand">1</li>
+			<li class="grand">2</li>
+			<li class="grand">3</li>
+			<li class="grand">4</li>
+			<li class="grand">5</li>
+			<li class="grand">6</li>
+			<li class="grand">7</li>
+			<li class="grand">8</li>
+			<li class="grand">9</li>
+		</ul>
+		</div>
+		<div class="left">
+		<ul>
+			<li class="grand">1</li>
+			<li class="grand">2</li>
+			<li class="grand">3</li>
+			<li class="grand">4</li>
+			<li class="grand">5</li>
+			<li class="grand">6</li>
+			<li class="grand">7</li>
+			<li class="grand">8</li>
+			<li class="grand">9</li>
+		</ul>
+		</div>
+		<div class="right">
+		<ul>
+			<li class="grand">1</li>
+			<li class="grand">2</li>
+			<li class="grand">3</li>
+			<li class="grand">4</li>
+			<li class="grand">5</li>
+			<li class="grand">6</li>
+			<li class="grand">7</li>
+			<li class="grand">8</li>
+			<li class="grand">9</li>
+		</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		// var oBefore=document.getElementsByClassName("before")[0];
+		// var beforeGrand=oBefore.getElementsByClassName("grand");
+		var beforeGrand=$my("before").getElementsByClassName("grand");
+		var bottomGrand=$my("bottom").getElementsByClassName("grand");
+		var backGrand=$my("back").getElementsByClassName("grand");
+		var topGrand=$my("top").getElementsByClassName("grand");
+		var leftGrand=$my("left").getElementsByClassName("grand");
+		var rightGrand=$my("right").getElementsByClassName("grand");
+		var oDt=new Date();
+		var month=oDt.getMonth()+1;
+		var day=oDt.getDate();
+		for(var i=0;i<9;i++){
+			wanAn(beforeGrand[i],i);
+			wanAn(bottomGrand[i],i);
+			wanAn(backGrand[i],i);
+			wanAn(topGrand[i],i);
+			wanAn(leftGrand[i],i);
+			wanAn(rightGrand[i],i);
+		}
+		
+		function wanAn(ele,num){
+			switch (num) {
+				case 0:
+					ele.innerHTML=month;
+					break;
+				case 1:
+					ele.innerHTML="月"
+				break;
+				case 2:
+				ele.innerHTML=day;
+				break;
+				case 3:
+				ele.innerHTML="日"
+				break;
+				case 4:
+				ele.innerHTML="余"
+				break;
+				case 5:
+				ele.innerHTML="少";
+				break;
+				case 6:
+				ele.innerHTML="爷"
+				break;
+				case 7:
+				ele.innerHTML="晚"
+				break;
+				case 8:
+				ele.innerHTML="安"
+				break;
+				default:
+					// statements_def
+					break;
+			}
+		}
+
+		function $my(name){
+			return document.getElementsByClassName(name)[0]
+		}
+
+
+	</script>
+</body>
+</html>
