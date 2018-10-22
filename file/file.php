@@ -25,8 +25,9 @@
 		$GLOBALS['message'] = '上传成功';
 
 	};
-
+	// header('content-type: text/css');
 	if($_SERVER['REQUEST_METHOD']==='POST'){
+
 		var_dump($_FILES);
 		getFile();
 	}
@@ -39,6 +40,7 @@
 	<title>Document</title>
 </head>
 <body>
+	<a href="./index.html">back</a>
 	<a href="./upload1/">点击</a>
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
 		<input type="file" name="img" id="">
