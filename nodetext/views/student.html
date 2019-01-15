@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Carousel Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../public/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" >
+        <a class="navbar-brand" href="#">首页</a>
+        <button class="navbar-toggler" type="button"  >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="container">
+     
+       <div class="row">
+        {{each frults}}
+          <div class="col-lg-4 col-md-4  col-sm-4" >
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140" style="margin-top: 30px;">
+
+            <h2>{{ $value }}</h2>
+          </div>
+
+        {{/each}}
+        </div><!-- /.row -->
+        <div class="text-left" style="margin: 15px 0;">
+        <a href="/student/new" class="btn btn-success">添加学生</a>
+        </div>
+        <table class="table table-bordered">
+            <body class="text-center">
+              <tr>
+                <td>ID</td>
+                <td>姓名</td>
+                <td>性别</td>
+                <td>年纪</td>
+                <td>爱好</td>
+                <td>操作</td>
+              </tr>
+              {{ each comments}}
+              <tr>
+                <td> {{ $value.id }} </td>
+                <td>{{ $value.name }}</td>
+                <td>
+                  {{if $value.gender == 0 }}
+                    男
+                  {{else }}
+                    女 
+                  {{/if}}
+                </td>
+                <td>{{ $value.age }}</td>
+                <td>{{ $value.hobbies }}</td>
+                <td>
+                  <a href="/student/redit?id={{$value.id}}" class="btn btn-primary">编辑</a>
+                  <a href="/student/delete?id={{$value.id}}" class="btn btn-danger">删除</a>
+                </td>
+              </tr>
+              {{ /each }}
+            </body>
+        </table>
+ 
+    </main>
+    
+  </body>
+</html>

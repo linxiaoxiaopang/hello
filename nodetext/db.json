@@ -1,0 +1,24 @@
+{
+    "student": [
+    {
+        "id": 4,
+        "name": "张三三",
+        "gender": "0",
+        "age": "22",
+        "hobbies": "吃饭、睡觉、打豆豆"
+    },
+    {
+        "name": "linxiaopang",
+        "gender": "0",
+        "age": "250",
+        "hobbies": "吃饭 豆豆 ",
+        "id": 5
+    },
+    {
+        "name": "lindada",
+        "gender": "0",
+        "age": "210",
+        "hobbies": "吃饭 豆豆 和 吃饭饭",
+        "id": 6
+    }]
+}

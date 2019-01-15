@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Carousel Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../public/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" >
+        <a class="navbar-brand" href="#">首页</a>
+        <button class="navbar-toggler" type="button"  >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="container">
+     
+       <div class="row">
+        {{each frults}}
+          <div class="col-lg-4 col-md-4 " >
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140" style="margin-top: 30px;">
+
+            <h2>{{ $value }}</h2>
+          </div>
+
+        {{/each}}
+        </div><!-- /.row -->
+        <div class="text-left" style="margin: 15px 0;">
+        </div>
+       <form action="/student/new" method="POST">
+      <div class="form-group">
+        <label for="name">姓名</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="填写姓名" >
+      </div>
+      <div class="checkbox">
+        <label>性别</label>
+        <div>
+        <input type="radio" name="gender" value="0">男
+        <input type="radio" name="gender" value="1">女
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="age">年纪</label>
+        <input type="number" class="form-control" name="age" id="age" placeholder="填写年纪">
+      </div>
+
+      <div class="form-group">
+        <label for="hobbies">爱好</label>
+        <input type="text" class="form-control" name="hobbies" id="hobbies" placeholder="填写爱好">
+      </div>
+
+      <button type="submit" class="btn btn-primary">提交</button>
+    </form>
+    </main>
+    
+  </body>
+</html>
