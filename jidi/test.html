@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://cdn.wilddog.com/sdk/js/2.5.17/wilddog.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		var config = {
+		  syncURL: "https://wd0963251028wmtevt.wilddogio.com/vegData" //输入节点 URL
+		};
+		wilddog.initializeApp(config);
+		var ref = wilddog.sync().ref();
+		// snapshot 里面的数据会一直和云端保持同步
+	ref.on("value", function(snapshot) {
+	    console.log(snapshot.val());
+	});
+	// var currentDate = new Date('Y-M-D')
+	// console.log(currentDate)
+	// var myDate = new Date();
+ //            var year = myDate.getFullYear();    //获取完整的年份(4位,1970-????)
+ //            var month = myDate.getMonth() + 1;       //获取当前月份(0-11,0代表1月)
+ //            var day = myDate.getDate();        //获取当前日(1-31)
+ //            var stryear = year.toString();
+ //            var strmonth;
+ //            var strday;
+ //            if (month <= 9) {
+ //                strmonth = "0" + month;
+ //            }
+ //            var dateStr = new Date('2019-1-18')
+ //            dateStr.toString()
+ //            console.log(dateStr)
+ //            
+	 var testTime = new Date() - new Date('2018-12-10')
+	 var modMum = 1000*24*60*60
+	 var dayNum = Math.floor(testTime/modMum)
+	 console.log(dayNum) 
+	</script>
+</body>
+</html>

@@ -1,0 +1,2910 @@
+{
+	"vegData" : {
+		"1" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "33px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "1",
+		"width" : "33px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "34px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		
+	},
+		// 2开始行
+		"2" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"12" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "80px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "80px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "80px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "1",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"12" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		// 开始行
+	},
+		// 3开始行
+		"3" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "1",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "350px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		// 开始行
+	},// 4开始行
+		"4" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "",
+				"sowDate" : "",
+				"estimate" : ""
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "100px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "130px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "160px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "190px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "220px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"12" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"13" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "280px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"14" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "310px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"15" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "340px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "1",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "350px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"12" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"13" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"14" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "100px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"15" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "50px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大黑菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		// 开始行
+	},
+	// 4结束行
+	// 4开始行
+		"5" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "200px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "200px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "水果玉米",
+				"sowDate" : "2019-1-16",
+				"estimate" : "62"
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "200px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "150px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "100px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "50px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "1",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "160px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "80px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		// 开始行
+	},
+	"6" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "1",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		
+	},
+	// 6结束行,
+	"7" : {
+		"firstLine":{
+		"0" : {
+		"masId": "sd01F01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01F02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "0px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "200px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"12" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"13" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"14" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		},
+		"roadLine" : {
+		"width" : "100%",
+		"height" : "100px"
+		},
+		"secondLine":{
+		"0" : {
+		"masId": "sd01S01",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "150px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"1" : {
+		"masId": "sd01S02",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "150px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"2" : {
+		"masId": "sd01S03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "150px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"3" : {
+		"masId": "sd01S04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"4" : {
+		"masId": "sd01S05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"5" : {
+		"masId": "sd01S06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "300px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"6" : {
+		"masId": "sd01S07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"7" : {
+		"masId": "sd01S08",
+		"road" : "1",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"8" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"9" : {
+		"masId": "sd01F03",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"10" : {
+		"masId": "sd01F04",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"11" : {
+		"masId": "sd01F05",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"12" : {
+		"masId": "sd01F06",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"13" : {
+		"masId": "sd01F07",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "250px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		},
+		"14" : {
+		"masId": "sd01F08",
+		"road" : "0",
+		"width" : "100px",
+		"height" : "320px",
+		"vegs" : {
+			"0" : {"name" : "上海青",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			},
+			"1" : {
+				"name" : "大白菜",
+				"sowDate" : "2019-1-17",
+				"estimate" : 61
+			}
+		}
+		}
+		}
+
+		
+	}
+
+	
+
+
+
+
+
+
+
+	}
+	
+		
+
+}
