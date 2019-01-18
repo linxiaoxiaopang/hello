@@ -1,0 +1,263 @@
+{
+	vegData : [
+	{
+		id:1,
+		massif : {
+		masId: sd01F01,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F02,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F03,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F04,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F05,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F06,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F07,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01F08,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B01,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B02,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B03,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+		},
+		massif : {
+		masId: sd01B04,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B05,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B06,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B07,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+		massif : {
+		masId: sd01B08,
+		vegs:[
+			vegInfo : {
+				name : "上海青",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			},
+			vegInfo : {
+				name : "大白菜",
+				sowDate : "2019-1-17",
+				estimate : 60,
+			}
+		]
+
+		},
+
+	}
+]
+}
